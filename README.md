@@ -1,16 +1,18 @@
-## Hi there 👋
+<p align="center">
+<a href="https://github.com/AdityaSreevatsaK"><img width="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" /> </a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="Typing SVG" /></a>
+</p>
 
-<!--
-**AdityaSreevatsaK/AdityaSreevatsaK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+	<a href="https://github.com/AdityaSreevatsaK" target="_blank">
+		<img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+	</a> 
+	<a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
+		<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+	</a> 
+</p>
 
-Here are some ideas to get you started:
+<br><br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Aditya's GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=moonlight)
+<br><br>

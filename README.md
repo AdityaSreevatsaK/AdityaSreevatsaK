@@ -1,20 +1,104 @@
 <p align="center">
     <a href="https://github.com/AdityaSreevatsaK"><img width="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" /> </a>
+</p> <br>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 30vh;">
+    <p align="center">
+        <a href="https://git.io/typing-svg">
+                    <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
+        </a>
+        <a href="https://github.com/AdityaSreevatsaK" target="_blank">
+            <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+        </a>
+        <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
+            <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
+    </p>
+</div>
+
+<img align="right" height="480" width="400" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+
+<p align="left">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="650"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="650" />
+</p>
+
+<p align="left">
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&size=30&weight=900&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" /></a>
+</p>
+<p>
+    <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
+    <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=333&logoColor=white" />
+    <img alt="Spring" src="https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+    <img alt="Spring Boot" src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
+    <img alt="Numpy" src="https://img.shields.io/badge/-Numpy-013243?style=flat-square&logo=numpy&logoColor=white" />
+    <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+    <img alt="Scikit-Learn" src="https://img.shields.io/badge/-Scikit_Learn-2088FF?style=flat-square&logo=scikit-learn&logoColor=white" />
+    <img alt="SymPy" src="https://img.shields.io/badge/-SmyPy-3B5526?style=flat-square&logo=sympy&logoColor=white" />
+    <img alt="OpenCV" src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+    <img alt="SciPy" src="https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
+    <img alt="Seaborn" src="https://img.shields.io/badge/-Seaborn-FCCD2A?style=flat-square&logo=seaborn&logoColor=white" />
+    <img alt="Matplotlib" src="https://img.shields.io/badge/-Matplotlib-B8001F?style=flat-square&logo=matplotlib&logoColor=white" />
+    <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
+</p>
+<p>
+    <img alt="Structured Query Language" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+    <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+    <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+</p>
+<p>
+    <img alt="Apache Kafka" src="https://img.shields.io/badge/-Apache_Kafka-3F4F75?style=flat-square&logo=apache-kafka&logoColor=white" />
+    <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
+    <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+    <img alt="Elastic Search" src="https://img.shields.io/badge/-Elastic_Search-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
+    <img alt="Red Hat Openshift Service (ROSA)" src="https://img.shields.io/badge/-Red_Hat_Openshift_Service_(ROSA)-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
+    <img alt="Splunk" src="https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
+    <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
+    <img alt="Hashicorp" src="https://img.shields.io/badge/-Hashicorp-000000?style=flat-square&logo=hashicorp&logoColor=white" />
+    <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
+    <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+    <img alt="PyTest" src="https://img.shields.io/badge/-PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+    <img alt="JUnit" src="https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" />
+    <img alt="Cucumber" src="https://img.shields.io/badge/-Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white" />
+    <img alt="Grafana" src="https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+    <img alt="Sonarlint" src="https://img.shields.io/badge/-SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" />
+    <img alt="Sonarlint" src="https://img.shields.io/badge/-Sonarlint-CB2029?style=flat-square&logo=sonarlint&logoColor=white" />
+    <img alt="Swagger" src="https://img.shields.io/badge/-Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=white" />
+</p>
+<p>
+    <img alt="Tableau" src="https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
+    <img alt="Power BI" src="https://img.shields.io/badge/-Power_BI-000000?style=flat-square&logo=powerbi&logoColor=white" />
+</p>
+<p>
+    <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+    <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+    <img alt="BitBucket" src="https://img.shields.io/badge/-BitBucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white" />
+</p>
+<p>
+    <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" />
+    <img alt="PyCharm" src="https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white" />
+    <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
+    <img alt="Anaconda" src="https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white" />
+    <img alt="Jupyter Notebook" src="https://img.shields.io/badge/-Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+    <img alt="Notepad ++" src="https://img.shields.io/badge/-Notepad++-90E59A?style=flat-square&logo=notepadplusplus&logoColor=white" />
+</p>
+<p>
+    <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
+    <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white" />
+    <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
+</p>
+
+<p align="left">
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" /></a>
+</p>
+<img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E95420?style=flat-square&logoColor=white" />
+<img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-000000?style=flat-square&logoColor=white" />
+
+<p align="left">
     <a href="https://git.io/typing-svg">
-                <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
-    </a>
-</p>
-<p align="center">
-    <a href="https://github.com/AdityaSreevatsaK" target="_blank">
-        <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
-        <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
+    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Visitor Count:" alt="Visitor Count" /></a>
 </p>
 
-
-<p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK" alt="GitHub streak details" />
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=moonlight" alt="GitHub profile details" />
-</p>
+![Visitor Count](https://profile-counter.glitch.me/AdityaSreevatsaK/count.svg)

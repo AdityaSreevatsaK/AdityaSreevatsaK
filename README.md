@@ -24,7 +24,7 @@
 </p>
 
 <p align="left">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&size=30&weight=900&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&size=30&weight=900&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" /></a>
 </p>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
@@ -48,6 +48,11 @@
 </p>
 <p>
     <img alt="Apache Kafka" src="https://img.shields.io/badge/-Apache_Kafka-3F4F75?style=flat-square&logo=apache-kafka&logoColor=white" />
+    <img alt="Apache Active MQ" src="https://img.shields.io/badge/-Apache_ActiveMQ-941a4d?style=flat-square&logo=apache-activemq&logoColor=white" />
+    <img alt="Apache Maven" src="https://img.shields.io/badge/-Apache_Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white" />
+    <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+    <img alt="Helm" src="https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
+    <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
     <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
@@ -55,9 +60,9 @@
     <img alt="Red Hat Openshift Service (ROSA)" src="https://img.shields.io/badge/-Red_Hat_Openshift_Service_(ROSA)-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
     <img alt="Splunk" src="https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
     <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+    <img alt="Snyk" src="https://img.shields.io/badge/-Snyk-4C4A73?style=flat-square&logo=snyk&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Hashicorp" src="https://img.shields.io/badge/-Hashicorp-000000?style=flat-square&logo=hashicorp&logoColor=white" />
-    <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
     <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
     <img alt="PyTest" src="https://img.shields.io/badge/-PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
     <img alt="JUnit" src="https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" />
@@ -90,15 +95,16 @@
     <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
 </p>
 
-<p align="left">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" /></a>
-</p>
-<img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E95420?style=flat-square&logoColor=white" />
-<img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-000000?style=flat-square&logoColor=white" />
 
 <p align="left">
-    <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" /></a>
+</p>
+<p>
+    <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
+    <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
+</p>
+
+<p align="left">
     <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Visitor Count:" alt="Visitor Count" /></a>
 </p>
-
-![Visitor Count](https://profile-counter.glitch.me/AdityaSreevatsaK/count.svg)
+<img src="https://profile-counter.glitch.me/AdityaSreevatsaK/count.svg" />

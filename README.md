@@ -19,8 +19,8 @@
 <img align="right" width="300" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="450"/>
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="450" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="500"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="500" />
 </p>
 
 <p align="left">

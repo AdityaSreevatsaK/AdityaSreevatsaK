@@ -16,11 +16,11 @@
     </p>
 </div>
 
-<img align="right" height="480" width="400" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+<img align="right" width="200" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="650"/>
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="650" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="350"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="350" />
 </p>
 
 <p align="left">

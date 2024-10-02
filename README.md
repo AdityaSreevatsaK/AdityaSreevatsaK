@@ -13,7 +13,7 @@
     </p>
 </div>
 
-<img align="right" width="330" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+<img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="500"/>

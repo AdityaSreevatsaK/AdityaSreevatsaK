@@ -1,8 +1,7 @@
 <p align="center">
-    <a href="https://github.com/AdityaSreevatsaK"><img width="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" /> </a>
-</p> <br>
-
-<div style="display: flex; justify-content: center; align-items: center; height: 30vh;">
+    <a href="https://github.com/AdityaSreevatsaK"><img width="80%" height="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" /> </a>
+</p>
+<div style="display: flex; justify-content: center; align-items: center; height: 25vh;">
     <p align="center">
         <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
         <a href="https://github.com/AdityaSreevatsaK" target="_blank">
@@ -14,7 +13,7 @@
     </p>
 </div>
 
-<img align="right" width="300" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+<img align="right" width="330" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="500"/>

@@ -4,9 +4,7 @@
 
 <div style="display: flex; justify-content: center; align-items: center; height: 30vh;">
     <p align="center">
-        <a href="https://git.io/typing-svg">
-                    <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
-        </a>
+        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
         <a href="https://github.com/AdityaSreevatsaK" target="_blank">
             <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
         </a>
@@ -28,7 +26,7 @@
 </p>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
-    <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=333&logoColor=white" />
+    <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=java&logoColor=white" />
     <img alt="Spring" src="https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
     <img alt="Spring Boot" src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
     <img alt="Numpy" src="https://img.shields.io/badge/-Numpy-013243?style=flat-square&logo=numpy&logoColor=white" />
@@ -87,6 +85,7 @@
     <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
     <img alt="Anaconda" src="https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white" />
     <img alt="Jupyter Notebook" src="https://img.shields.io/badge/-Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+    <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual_Studio_Code-5395FD?style=flat-square&logo=visual-studio-code&logoColor=white" />
     <img alt="Notepad ++" src="https://img.shields.io/badge/-Notepad++-90E59A?style=flat-square&logo=notepadplusplus&logoColor=white" />
 </p>
 <p>

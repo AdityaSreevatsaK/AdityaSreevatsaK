@@ -37,13 +37,11 @@
     <img alt="Seaborn" src="https://img.shields.io/badge/-Seaborn-FCCD2A?style=flat-square&logo=seaborn&logoColor=white" />
     <img alt="Matplotlib" src="https://img.shields.io/badge/-Matplotlib-B8001F?style=flat-square&logo=matplotlib&logoColor=white" />
     <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="Structured Query Language" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
     <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="Apache Kafka" src="https://img.shields.io/badge/-Apache_Kafka-3F4F75?style=flat-square&logo=apache-kafka&logoColor=white" />
     <img alt="Apache Active MQ" src="https://img.shields.io/badge/-Apache_ActiveMQ-941a4d?style=flat-square&logo=apache-activemq&logoColor=white" />
     <img alt="Apache Maven" src="https://img.shields.io/badge/-Apache_Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white" />
@@ -68,17 +66,14 @@
     <img alt="Sonarlint" src="https://img.shields.io/badge/-SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" />
     <img alt="Sonarlint" src="https://img.shields.io/badge/-Sonarlint-CB2029?style=flat-square&logo=sonarlint&logoColor=white" />
     <img alt="Swagger" src="https://img.shields.io/badge/-Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="Tableau" src="https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
     <img alt="Power BI" src="https://img.shields.io/badge/-Power_BI-000000?style=flat-square&logo=powerbi&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
     <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
     <img alt="BitBucket" src="https://img.shields.io/badge/-BitBucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" />
     <img alt="PyCharm" src="https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white" />
     <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
@@ -86,8 +81,7 @@
     <img alt="Jupyter Notebook" src="https://img.shields.io/badge/-Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
     <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual_Studio_Code-5395FD?style=flat-square&logo=visual-studio-code&logoColor=white" />
     <img alt="Notepad ++" src="https://img.shields.io/badge/-Notepad++-90E59A?style=flat-square&logo=notepadplusplus&logoColor=white" />
-</p>
-<p>
+<br>
     <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
     <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white" />
 </p>
@@ -100,8 +94,3 @@
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
     <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
 </p>
-
-<p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Visitor Count:" alt="Visitor Count" /></a>
-</p>
-<img src="https://profile-counter.glitch.me/AdityaSreevatsaK/count.svg" />

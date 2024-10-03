@@ -100,8 +100,3 @@
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
     <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
 </p>
-
-<p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Visitor Count:" alt="Visitor Count" /></a>
-</p>
-<img src="https://profile-counter.glitch.me/AdityaSreevatsaK/count.svg" />

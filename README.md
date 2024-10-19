@@ -57,6 +57,7 @@
     <img alt="Red Hat Openshift Service (ROSA)" src="https://img.shields.io/badge/-Red_Hat_Openshift_Service_(ROSA)-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
     <img alt="Splunk" src="https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
     <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
+    <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white" />
     <img alt="Snyk" src="https://img.shields.io/badge/-Snyk-4C4A73?style=flat-square&logo=snyk&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Hashicorp" src="https://img.shields.io/badge/-Hashicorp-000000?style=flat-square&logo=hashicorp&logoColor=white" />
@@ -100,3 +101,13 @@
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
     <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
 </p>
+
+<small> Resources & Tools Credits: 
+<ol>
+    <li><a href="https://simpleicons.org/">https://simpleicons.org/</a></li>
+    <li><a href="https://shields.io/">https://shields.io/</a> </li>
+    <li><a href="https://readme-typing-svg.demolab.com/demo/">https://readme-typing-svg.demolab.com/demo/</a></li>
+    <li><a href="https://github-readme-streak-stats.herokuapp.com/demo/">https://github-readme-streak-stats.herokuapp.com/demo/</a> </li>
+    <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
+</ol>
+</small>

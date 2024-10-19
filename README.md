@@ -50,7 +50,6 @@
     <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="Helm" src="https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
     <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
-    <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
     <img alt="Elastic Search" src="https://img.shields.io/badge/-Elastic_Search-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
@@ -59,7 +58,6 @@
     <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
     <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white" />
     <img alt="Snyk" src="https://img.shields.io/badge/-Snyk-4C4A73?style=flat-square&logo=snyk&logoColor=white" />
-    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Hashicorp" src="https://img.shields.io/badge/-Hashicorp-000000?style=flat-square&logo=hashicorp&logoColor=white" />
     <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
     <img alt="PyTest" src="https://img.shields.io/badge/-PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />

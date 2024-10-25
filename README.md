@@ -3,7 +3,7 @@
 </p>
 <div style="display: flex; justify-content: center; align-items: center; height: 25vh;">
     <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=FABC3F&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
+        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
         <a href="https://github.com/AdityaSreevatsaK" target="_blank">
             <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
         </a>
@@ -16,12 +16,12 @@
 <img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=onedark" alt="GitHub streak details" width="500"/>
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=onedark" alt="GitHub profile details" width="500" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=prussian" alt="GitHub streak details" width="490"/>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian" alt="GitHub profile details" width="490" />
 </p>
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&size=30&weight=900&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" />
 </p>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
@@ -39,9 +39,9 @@
     <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
 </p>
 <p>
-    <img alt="Structured Query Language" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-    <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+    <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+    <img alt="Structured Query Language" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 <p>
     <img alt="Apache Kafka" src="https://img.shields.io/badge/-Apache_Kafka-3F4F75?style=flat-square&logo=apache-kafka&logoColor=white" />
@@ -93,7 +93,7 @@
 
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Bradley+Hand+ITC&weight=900&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" />
 </p>
 <p>
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />

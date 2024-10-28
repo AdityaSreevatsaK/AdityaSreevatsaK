@@ -53,7 +53,7 @@
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
     <img alt="Elastic Search" src="https://img.shields.io/badge/-Elastic_Search-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
-    <img alt="Red Hat Openshift Service (ROSA)" src="https://img.shields.io/badge/-Red_Hat_Openshift_Service_(ROSA)-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
+    <img alt="Red Hat Openshift Service on AWS (ROSA)" src="https://img.shields.io/badge/-Red_Hat_Openshift_Service_on_AWS_(ROSA)-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white" />
     <img alt="Splunk" src="https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white" />
     <img alt="Postman" src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
     <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white" />
@@ -80,7 +80,7 @@
 <p>
     <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" />
     <img alt="PyCharm" src="https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white" />
-    <img alt="Spyder" src="https://img.shields.io/badge/-Spyder_IDE-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
+    <img alt="Spyder" src="https://img.shields.io/badge/-Spyder-FF0000?style=flat-square&logo=spyder-ide&logoColor=white" />
     <img alt="Anaconda" src="https://img.shields.io/badge/-Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white" />
     <img alt="Jupyter Notebook" src="https://img.shields.io/badge/-Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
     <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual_Studio_Code-5395FD?style=flat-square&logo=visual-studio-code&logoColor=white" />
@@ -93,7 +93,7 @@
 
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Domains:" alt="Domain details" />
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Sectors:" alt="Sector details" />
 </p>
 <p>
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
@@ -109,3 +109,5 @@
     <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
 </ol>
 </small>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaSreevatsaK&hide_border=true&show_icons=true&include_all_commits=true&count_private=true)](https://github.com/AdityaSreevatsaK/github-readme-stats)

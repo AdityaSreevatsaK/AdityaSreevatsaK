@@ -109,5 +109,3 @@
     <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
 </ol>
 </small>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaSreevatsaK&hide_border=true&show_icons=true&include_all_commits=true&count_private=true)](https://github.com/AdityaSreevatsaK/github-readme-stats)

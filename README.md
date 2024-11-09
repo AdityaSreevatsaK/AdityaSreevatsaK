@@ -1,7 +1,7 @@
 <div style="display: flex; align-items: center;">
     <p style="flex: 1; text-align: left;">
         <a href="https://github.com/AdityaSreevatsaK">
-            <img width="50%" height="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" />
+            <img width="30%" height="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" />
         </a>
     </p>
     <p style="flex: 1; text-align: right;">

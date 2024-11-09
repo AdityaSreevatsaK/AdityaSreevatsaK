@@ -5,14 +5,12 @@
     <p align="left">
         <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
     </p>
-    <p align="center">
-        <a href="https://github.com/AdityaSreevatsaK" target="_blank">
-            <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-        </a>
-        <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
-            <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-        </a>
-    </p>
+    <a href="https://github.com/AdityaSreevatsaK" target="_blank">
+        <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+    </a>
+    <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
+        <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
     <img align="right" height="100" width="100" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 </div>
 

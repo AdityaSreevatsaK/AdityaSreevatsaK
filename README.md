@@ -1,17 +1,15 @@
-<p align="center">
-    <a href="https://github.com/AdityaSreevatsaK"><img width="80%" height="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" /> </a>
-</p>
-<div style="display: flex; justify-content: center; align-items: center; height: 25vh;">
-    <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
-        <a href="https://github.com/AdityaSreevatsaK" target="_blank">
-            <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-        </a>
-        <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
-            <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+<div style="display: flex; align-items: center;">
+    <p style="flex: 1; text-align: left;">
+        <a href="https://github.com/AdityaSreevatsaK">
+            <img width="60%" height="80%" alt="Hello, I'm Aditya Sreevatsa K" src="documents/AdityaSreevatsaK.png" />
         </a>
     </p>
+    <p style="flex: 1; text-align: right;">
+        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
+    </p>
 </div>
+
+
 
 <img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 

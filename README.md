@@ -16,7 +16,6 @@
 <img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaSreevatsaK&theme=prussian" alt="GitHub streak details" width="490"/>
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian" alt="GitHub profile details" width="490" />
 </p>
 
@@ -30,7 +29,9 @@
     <img alt="Spring Boot" src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
     <img alt="Numpy" src="https://img.shields.io/badge/-Numpy-013243?style=flat-square&logo=numpy&logoColor=white" />
     <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+    <img alt="PandaSQL" src="https://img.shields.io/badge/-PandaSQL-330338?style=flat-square&logo=pandasql&logoColor=white" />
     <img alt="Scikit-Learn" src="https://img.shields.io/badge/-Scikit_Learn-2088FF?style=flat-square&logo=scikit-learn&logoColor=white" />
+    <img alt="Statsmodels" src="https://img.shields.io/badge/-Statsmodels-E2EE4A?style=flat-square&logo=statsmodels&logoColor=white" />
     <img alt="SymPy" src="https://img.shields.io/badge/-SmyPy-3B5526?style=flat-square&logo=sympy&logoColor=white" />
     <img alt="OpenCV" src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
     <img alt="SciPy" src="https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />

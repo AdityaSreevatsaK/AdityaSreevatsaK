@@ -31,6 +31,9 @@
     <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
     <img alt="PandaSQL" src="https://img.shields.io/badge/-PandaSQL-330338?style=flat-square&logo=pandasql&logoColor=white" />
     <img alt="Scikit-Learn" src="https://img.shields.io/badge/-Scikit_Learn-2088FF?style=flat-square&logo=scikit-learn&logoColor=white" />
+    <img alt="Keras" src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
+    <img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+    <img alt="TensorFlow" src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
     <img alt="Statsmodels" src="https://img.shields.io/badge/-Statsmodels-E2EE4A?style=flat-square&logo=statsmodels&logoColor=white" />
     <img alt="SymPy" src="https://img.shields.io/badge/-SmyPy-3B5526?style=flat-square&logo=sympy&logoColor=white" />
     <img alt="OpenCV" src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />

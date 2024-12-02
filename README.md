@@ -48,6 +48,7 @@
     <img alt="PyCaret" src="https://img.shields.io/badge/-PyCaret-1DA456?style=flat-square&logo=pycaret&logoColor=white" />
     <img alt="SpaCy" src="https://img.shields.io/badge/-SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
     <img alt="Natural Language Toolkit (NLTK)" src="https://img.shields.io/badge/-NLTK-317F6F?style=flat-square&logo=nltk&logoColor=white" />
+    <img alt="Beautiful Soup" src="https://img.shields.io/badge/-Beautiful_Soup-123456?style=flat-square&logo=beautifulsoup&logoColor=white" />
     <img alt="Seaborn" src="https://img.shields.io/badge/-Seaborn-FCCD2A?style=flat-square&logo=seaborn&logoColor=white" />
     <img alt="Matplotlib" src="https://img.shields.io/badge/-Matplotlib-B8001F?style=flat-square&logo=matplotlib&logoColor=white" />
     <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
@@ -90,6 +91,7 @@
     <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
     <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
     <img alt="BitBucket" src="https://img.shields.io/badge/-BitBucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white" />
+    <img alt="Azure DevOps" src="https://img.shields.io/badge/-Azure_DevOps-007fff?style=flat-square&logo=azuredevops&logoColor=white" />
 </p>
 <p>
     <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" />
@@ -114,12 +116,13 @@
     <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
 </p>
 <hr />
-<small> Resources & Tools Credits: 
-<ol>
-    <li><a href="https://simpleicons.org/">https://simpleicons.org/</a></li>
-    <li><a href="https://shields.io/">https://shields.io/</a> </li>
-    <li><a href="https://readme-typing-svg.demolab.com/demo/">https://readme-typing-svg.demolab.com/demo/</a></li>
-    <li><a href="https://github-readme-streak-stats.herokuapp.com/demo/">https://github-readme-streak-stats.herokuapp.com/demo/</a> </li>
-    <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
-</ol>
+<small>
+    Resources & Tools Credits: 
+    <ol>
+        <li><a href="https://simpleicons.org/">https://simpleicons.org/</a></li>
+        <li><a href="https://shields.io/">https://shields.io/</a> </li>
+        <li><a href="https://readme-typing-svg.demolab.com/demo/">https://readme-typing-svg.demolab.com/demo/</a></li>
+        <li><a href="https://github-readme-streak-stats.herokuapp.com/demo/">https://github-readme-streak-stats.herokuapp.com/demo/</a> </li>
+        <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
+    </ol>
 </small>

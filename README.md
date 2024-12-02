@@ -27,7 +27,7 @@
 <p align="left">
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian"
         alt="GitHub profile details" 
-        width="60%" />
+        width="55%" />
 </p>
 
 <p align="left">

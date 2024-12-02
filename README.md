@@ -3,7 +3,7 @@
         <img width="90%" height="80%" 
             alt="Hello, I'm Aditya Sreevatsa K." 
             src="documents/AdityaSreevatsaK.png"
-            style="border: 5px solid white; border-radius: 30px"/> 
+            style="border: 5px solid white; border-radius: 30px" /> 
     </a>
 </p>
 <hr />
@@ -22,12 +22,12 @@
     </td>
 </table>
 <hr />
-<img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+<img align="right" width="40%" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian" 
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian"
         alt="GitHub profile details" 
-        width="490" />
+        width="60%" />
 </p>
 
 <p align="left">

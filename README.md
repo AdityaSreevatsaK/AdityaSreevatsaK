@@ -1,17 +1,23 @@
 <p align="center">
-    <a href="https://github.com/AdityaSreevatsaK"><img width="80%" height="80%" alt="Hello, I'm Aditya Sreevatsa K." src="documents/AdityaSreevatsaK.png" /> </a>
+    <a href="https://github.com/AdityaSreevatsaK">
+        <img width="90%" height="80%" 
+            alt="Hello, I'm Aditya Sreevatsa K." 
+            src="documents/AdityaSreevatsaK.png"
+            style="border: 5px solid white; border-radius: 30px"/> 
+    </a>
 </p>
 <hr />
 <table align="center">
     <td align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." alt="ASK details." />
+        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." 
+            alt="ASK details." />
     </td>
     <td align="center">
         <a href="https://github.com/AdityaSreevatsaK" target="_blank">
-            <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+            <img alt="Github Hyperlink" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" />
         </a>
         <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank">
-            <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+            <img alt="LinkedIn Hyperlink" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" />
         </a>
     </td>
 </table>
@@ -19,11 +25,14 @@
 <img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
 <p align="left">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian" alt="GitHub profile details" width="490" />
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian" 
+        alt="GitHub profile details" 
+        width="490" />
 </p>
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" alt="Tools and technologies" />
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" 
+        alt="Tools and technologies" />
 </p>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />

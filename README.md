@@ -27,11 +27,12 @@
 <p align="left">
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian"
         alt="GitHub profile details" 
-        width="55%" />
+        width="58%" />
 </p>
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:" 
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&lines=Tools and Technologies:"
+        width="58%"
         alt="Tools and technologies" />
 </p>
 <p>
@@ -118,7 +119,9 @@
 
 
 <p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Sectors:" alt="Sector details" />
+    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&lines=Sectors:"
+        width="40%"
+        alt="Sector details" />
 </p>
 <p>
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />

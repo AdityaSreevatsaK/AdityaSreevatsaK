@@ -2,8 +2,7 @@
     <a href="https://github.com/AdityaSreevatsaK">
         <img width="90%" height="80%" 
             alt="Hello, I'm Aditya Sreevatsa K." 
-            src="documents/AdityaSreevatsaK.png"
-            style="border: 5px solid white; border-radius: 30px" /> 
+            src="documents/AdityaSreevatsaK.png"/> 
     </a>
 </p>
 <hr />

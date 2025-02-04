@@ -49,8 +49,9 @@
     <img alt="Keras" src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
     <img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
     <img alt="OpenCV" src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-    <img alt="SpaCy" src="https://img.shields.io/badge/-SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
     <img alt="Natural Language Toolkit (NLTK)" src="https://img.shields.io/badge/-NLTK-317F6F?style=flat-square&logo=nltk&logoColor=white" />
+    <img alt="SpaCy" src="https://img.shields.io/badge/-SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
+    <img alt="Gensim" src="https://img.shields.io/badge/-Gensim-4000BF?style=flat-square&logo=gensim&logoColor=white" />
     <img alt="Beautiful Soup" src="https://img.shields.io/badge/-Beautiful_Soup-123456?style=flat-square&logo=beautifulsoup&logoColor=white" />
     <img alt="PyCaret" src="https://img.shields.io/badge/-PyCaret-1DA456?style=flat-square&logo=pycaret&logoColor=white" />
     <img alt="PandaSQL" src="https://img.shields.io/badge/-PandaSQL-330338?style=flat-square&logo=pandasql&logoColor=white" />

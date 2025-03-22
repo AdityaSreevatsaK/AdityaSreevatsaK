@@ -12,10 +12,10 @@
             alt="ASK details." />
     </td>
     <td align="center">
-        <a href="https://github.com/AdityaSreevatsaK" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AdityaSreevatsaK">
             <img alt="Github Hyperlink" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" />
         </a>
-        <a href="https://www.linkedin.com/in/adityasreevatsak" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/adityasreevatsak">
             <img alt="LinkedIn Hyperlink" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" />
         </a>
     </td>

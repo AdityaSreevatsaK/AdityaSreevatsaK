@@ -1,38 +1,33 @@
 <p align="center">
     <a href="https://github.com/AdityaSreevatsaK">
-        <img width="90%" height="80%" 
-            alt="Hello, I'm Aditya Sreevatsa K." 
-            src="documents/AdityaSreevatsaK.png"/> 
+        <img width="90%" height="80%" alt="Hello, I'm Aditya Sreevatsa K." src="documents/AdityaSreevatsaK.png"/>
     </a>
 </p>
+
 <hr />
-<table align="center">
-    <td align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Consolas&ize=15&duration=2000&pause=100&color=F95454&center=true&multiline=true&width=435&height=100&lines=- Data+Scientist.;- Machine Learning Engineer.;- Software+Engineer." 
-            alt="ASK details." />
-    </td>
-    <td align="center">
-        <a href="https://github.com/AdityaSreevatsaK">
-            <img alt="Github Hyperlink" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" />
-        </a>
-        <a href="https://www.linkedin.com/in/adityasreevatsak">
-            <img alt="LinkedIn Hyperlink" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" />
-        </a>
-    </td>
-</table>
-<hr />
+<p align="center">
+    <strong>Data Scientist • Machine Learning Engineer • Software Engineer</strong>
+</p>
+
+<p align="center">
+    <a href="https://github.com/AdityaSreevatsaK">
+        <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" />
+    </a>
+    <a href="https://www.linkedin.com/in/adityasreevatsak">
+        <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" />
+    </a>
+</p>
+
 <img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
+<h3 align="left">GitHub Profile Details</h3>
 <p align="left">
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian"
         alt="GitHub profile details" 
         width="490" />
 </p>
 
-<p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&size=30&weight=1200&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Tools and Technologies:"
-        alt="Tools and technologies" />
-</p>
+<h2 align="left">Tools and Technologies</h2>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
     <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=java&logoColor=white" />
@@ -117,10 +112,7 @@
 </p>
 
 
-<p align="left">
-    <img src="https://readme-typing-svg.demolab.com?font=Palatino+Linotype&weight=1200&size=30&duration=2000&pause=100&color=48CFCB&multiline=true&width=435&lines=Sectors:"
-        alt="Sector details" />
-</p>
+<h2 align="left">Sectors</h2>
 <p>
     <img alt="Financial Services" src="https://img.shields.io/badge/-Financial_Services-E9C420?style=flat-square&logoColor=white" />
     <img alt="Energy (Oil & Gas)" src="https://img.shields.io/badge/-Energy_(Oil_&_Gas)-00C000?style=flat-square&logoColor=white" />
@@ -131,8 +123,6 @@
     <ol>
         <li><a href="https://simpleicons.org/">https://simpleicons.org/</a></li>
         <li><a href="https://shields.io/">https://shields.io/</a> </li>
-        <li><a href="https://readme-typing-svg.demolab.com/demo/">https://readme-typing-svg.demolab.com/demo/</a></li>
-        <li><a href="https://github-readme-streak-stats.herokuapp.com/demo/">https://github-readme-streak-stats.herokuapp.com/demo/</a> </li>
         <li><a href="https://github-profile-summary-cards.vercel.app/demo.html">https://github-profile-summary-cards.vercel.app/demo.html</a> </li>
     </ol>
 </small>

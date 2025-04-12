@@ -5,16 +5,19 @@
 </p>
 
 <hr />
-<p align="center">
+
+<h2 align="center">
     <strong>Data Scientist • Machine Learning Engineer • Software Engineer</strong>
-</p>
+</h2>
 
 <p align="center">
     <a href="https://github.com/AdityaSreevatsaK">
-        <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" />
+        <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=GitHub" 
+             alt="GitHub"/>
     </a>
     <a href="https://www.linkedin.com/in/adityasreevatsak">
-        <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" />
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedIn" 
+            alt="LinkedIn" />
     </a>
 </p>
 
@@ -28,9 +31,12 @@
 </p>
 
 <p>
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AdityaSreevatsaK&theme=dracula&utcOffset=5.5"
-height="200"
-width="490" ></p>
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AdityaSreevatsaK&theme=dracula&utcOffset=5.5"
+        alt="Commit Time Chart"
+        height="200"
+        width="490"/>
+</p>
+
 <br clear="both" />
 
 <h2 align="left">Tools and Technologies</h2>

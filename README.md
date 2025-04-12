@@ -18,14 +18,20 @@
     </a>
 </p>
 
-<img align="right" width="320" src="documents/PenguinDev.webp" alt="Penguin Dev" />
+<img align="right" width="320" height="400" src="documents/PenguinDev.webp" alt="Penguin Dev" />
 
-<h3 align="left">GitHub Profile Details</h3>
 <p align="left">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=prussian"
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AdityaSreevatsaK&theme=dracula"
         alt="GitHub profile details" 
-        width="490" />
+        width="490" 
+        height="200"/>
 </p>
+
+<p>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AdityaSreevatsaK&theme=dracula&utcOffset=5.5"
+height="200"
+width="490" ></p>
+<br clear="both" />
 
 <h2 align="left">Tools and Technologies</h2>
 <p>

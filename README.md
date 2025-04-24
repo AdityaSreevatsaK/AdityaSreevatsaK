@@ -42,10 +42,12 @@
 <h2 align="left">Tools and Technologies</h2>
 <p>
     <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=flat-square&logo=python&logoColor=white" />
+    <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" />
     <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=java&logoColor=white" />
     <img alt="Spring Boot" src="https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
     <img alt="Hyper Text Markup Language (HTML)" src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
     <img alt="Cascading Style Sheets (CSS)" src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
+    <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
     <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 </p>
 <p>
@@ -57,7 +59,7 @@
     <img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
     <img alt="OpenCV" src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
     <img alt="Natural Language Toolkit (NLTK)" src="https://img.shields.io/badge/-NLTK-317F6F?style=flat-square&logo=nltk&logoColor=white" />
-    <img alt="SpaCy" src="https://img.shields.io/badge/-SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
+    <img alt="SpaCy" src="https://img.shields.io/badge/-SpaCy-09A3D5?style=flat-square&logo=spacy&logoColor=black" />
     <img alt="Gensim" src="https://img.shields.io/badge/-Gensim-4000BF?style=flat-square&logo=gensim&logoColor=white" />
     <img alt="Beautiful Soup" src="https://img.shields.io/badge/-Beautiful_Soup-123456?style=flat-square&logo=beautifulsoup&logoColor=white" />
     <img alt="PyCaret" src="https://img.shields.io/badge/-PyCaret-1DA456?style=flat-square&logo=pycaret&logoColor=white" />
@@ -70,17 +72,28 @@
     <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
 </p>
 <p>
+    <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
+    <img alt="Amazon EC2" src="https://img.shields.io/badge/-Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white"/>
+    <img alt="Amazon EC2" src="https://img.shields.io/badge/-Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=black"/>
+    <img alt="Amazon IAM" src="https://img.shields.io/badge/-Amazon_IAM-DD344C?style=flat-square&logo=amazoniam&logoColor=black"/>
+</p>
+<p>
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+    <img alt="Apache Cassandra DB" src="https://img.shields.io/badge/-Cassandra_DB-1287B1?style=flat-square&logo=apachecassandra&logoColor=white" />
     <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-    <img alt="Structured Query Language" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+    <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 <p>
     <img alt="Apache Kafka" src="https://img.shields.io/badge/-Apache_Kafka-3F4F75?style=flat-square&logo=apache-kafka&logoColor=white" />
-    <img alt="Apache Active MQ" src="https://img.shields.io/badge/-Apache_ActiveMQ-941a4d?style=flat-square&logo=apache-activemq&logoColor=white" />
     <img alt="Apache Maven" src="https://img.shields.io/badge/-Apache_Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white" />
+    <img alt="Apache Spark" src="https://img.shields.io/badge/-Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
+    <img alt="Apache Hadoop" src="https://img.shields.io/badge/-Apache_Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black" />
+    <img alt="Apache HBase" src="https://img.shields.io/badge/-Apache_HBase-BE160C?style=flat-square&logo=apachehbase&logoColor=white" />
+    <img alt="Apache Hive" src="https://img.shields.io/badge/-Apache_Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black" />
+    <img alt="Apache Flink" src="https://img.shields.io/badge/-Apache_Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white" />
+    <img alt="Apache Active MQ" src="https://img.shields.io/badge/-Apache_ActiveMQ-941a4d?style=flat-square&logo=apacheactivemq&logoColor=white" />
     <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="Helm" src="https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
-    <img alt="Amazon Web Services" src="https://img.shields.io/badge/-Amazon_Web_Services-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46c2c1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
     <img alt="Elastic Search" src="https://img.shields.io/badge/-Elastic_Search-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
@@ -121,8 +134,8 @@
 <p>
     <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
     <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white" />
+    <img alt="Azure Boards" src="https://img.shields.io/badge/-Azure_Boards-3067F0?style=flat-square&logo=azureboards&logoColor=white" />
 </p>
-
 
 <h2 align="left">Sectors</h2>
 <p>

@@ -1,11 +1,12 @@
 <h1 align="center">Hi, I'm Aditya Sreevatsa K!</h1>
 <p align="center">
-  <img src="documents/AdityaSreevatsaK.png" alt="Aditya" width="200" />
+  <img src="documents/AdityaSreevatsaK.png" alt="Aditya" width="400" />
 </p>
 
-<p align="center">
-  <em>Machine Learning Engineer • MTech in DS-ML-AI • Tech Enthusiast</em>
-</p>
+<h2 align="center">
+  <em>Machine Learning Engineer | MTech in DS-ML-AI | Tech Enthusiast</em>
+</h2>
+
 
 ---
 

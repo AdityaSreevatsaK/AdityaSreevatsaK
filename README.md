@@ -81,6 +81,6 @@
 
 ## 🌐 Find Me Here
 <p align="left">
-  <a href="https://www.linkedin.com/in/adityasreevatsak/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" /></a>
-  <a href="https://github.com/AdityaSreevatsaK"><img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" /></a>
+    <a href="https://www.linkedin.com/in/adityasreevatsak/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" /></a>
+    <a href="https://github.com/AdityaSreevatsaK"><img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" /></a>
 </p>

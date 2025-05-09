@@ -83,4 +83,7 @@
 <p align="left">
     <a href="https://www.linkedin.com/in/adityasreevatsak/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" /></a>
     <a href="https://github.com/AdityaSreevatsaK"><img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" /></a>
+    <a href="https://adityasreevatsak-mle.netlify.app/">
+      <img src="https://img.shields.io/badge/-Live_Portfolio-black?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAYAAAB/HSuDAAChOklEQVR4nOzddXgVV7vG4QcCxLDg7u7uTnEoUihQSinUv7q7u7sXa0sp7u7uTnHX4CEQg8j5gwMEjc2s2XvP776uc50k3Zn3/VpI9jyz1rvSJezpnSAAAAAAAODT0jvdAAAAAAAAsB8BAAAAAAAALkAAAAAAAACACxA" />
+    </a>
 </p>

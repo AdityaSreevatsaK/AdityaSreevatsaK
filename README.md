@@ -80,10 +80,17 @@
 ---
 
 ## 🌐 Find Me Here
-<p align="left">
-    <a href="https://www.linkedin.com/in/adityasreevatsak/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" /></a>
-    <a href="https://github.com/AdityaSreevatsaK"><img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" /></a>
-    <a href="https://adityasreevatsak-mle.netlify.app/">
-      <img src="https://img.shields.io/badge/-Live_Portfolio-black?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAYAAAB/HSuDAAChOklEQVR4nOzddXgVV7vG4QcCxLDg7u7uTnEoUihQSinUv7q7u7sXa0sp7u7uTnHX4CEQg8j5gwMEjc2s2XvP776uc50k3Zn3/VpI9jyz1rvSJezpnSAAAAAAAODT0jvdAAAAAAAAsB8BAAAAAAAALkAAAAAAAACACxA" />
+<p align="left" style="display: flex; gap: 10px;">
+    <a href="https://adityasreevatsak-mle.netlify.app/" target="_blank">
+        <button style="background-color: #000; color: white; border: none; padding: 2px 2px; border-radius: 3px; display: flex; align-items: center; font-size: 12px;">
+            <img src="documents/ASK.svg" alt="icon" width="15" height="15" style="margin-right: 8px;">
+            Live Portfolio
+        </button>
+    </a>
+    <a href="https://www.linkedin.com/in/adityasreevatsak/">
+        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" />
+    </a>
+    <a href="https://github.com/AdityaSreevatsaK">
+        <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" />
     </a>
 </p>

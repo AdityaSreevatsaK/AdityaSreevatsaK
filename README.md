@@ -12,16 +12,17 @@
 
 ## 🔭 What I'm Working On
 
-| Project                                                                                                     | Description                 |
-|:------------------------------------------------------------------------------------------------------------|:----------------------------|
-| 🚀 [The-Neural-Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus)                                 | Deep Learning Architectures |
-| 🧠 [NLP-Navigator](https://github.com/AdityaSreevatsaK/NLP-Navigator)                                       | NLP Projects                |
-| 🎯 [Suggestify-RecommendationSystems](https://github.com/AdityaSreevatsaK/Suggestify-RecommendationSystems) | Recommendation Systems      |
-| 📊 [DS-ML-Playground](https://github.com/AdityaSreevatsaK/DS-ML-Playground)                                 | ML Showcases                |
-| ⚙️ [PySpark-Pipeline](https://github.com/AdityaSreevatsaK/PySpark-Pipeline)                                 | Distributed ML Pipelines    |
-| 🍃 [MongoDB-Mechanics](https://github.com/AdityaSreevatsaK/MongoDB-Mechanics)                               | MongoDB for ML Workflows    |
-| 🐍 [100DaysOfCode-Python](https://github.com/AdityaSreevatsaK/100DaysOfCode_Python)                         | Python Journey              |
-| 🛠️ [Useful-Code-Snippets](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets)                        | Handy Snippets              |
+| Project                                                                                                     | Description                      |
+|:------------------------------------------------------------------------------------------------------------|:---------------------------------|
+| 🚀 [The-Neural-Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus)                                 | Cutting-Edge Deep Learning Lab   |
+| 🧠 [NLP-Navigator](https://github.com/AdityaSreevatsaK/NLP-Navigator)                                       | Real-World NLP Applications      |
+| 🎯 [Suggestify-RecommendationSystems](https://github.com/AdityaSreevatsaK/Suggestify-RecommendationSystems) | Scalable Recommender Engines     |
+| 📊 [DS-ML-Playground](https://github.com/AdityaSreevatsaK/DS-ML-Playground)                                 | Diverse ML Problem Solving       |
+| 🧪 [Applied-AI-Lab](https://github.com/AdityaSreevatsaK/Applied-AI-Lab)                                     | End-to-End AI/ML Experimentation |
+| ⚙️ [PySpark-Pipeline](https://github.com/AdityaSreevatsaK/PySpark-Pipeline)                                 | Big Data ML with PySpark         |
+| 🍃 [MongoDB-Mechanics](https://github.com/AdityaSreevatsaK/MongoDB-Mechanics)                               | NoSQL Data Handling for ML       |
+| 🐍 [100DaysOfCode-Python](https://github.com/AdityaSreevatsaK/100DaysOfCode_Python)                         | Rapid Python Mastery Journey     |
+| 🛠️ [Useful-Code-Snippets](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets)                        | Production-Ready Code Boosters   |
 
 ---
 
@@ -56,11 +57,15 @@
 
 ## 🧪 Research & Innovation
 
-- 📄 Working on Deep Reinforcement Learning and Computer Vision projects.
+- 📄 Working on Deep Reinforcement Learning, Computer Vision, and Explainable AI projects.
+- 🧠 Author of two XAI papers (under review):  
+  - *A Concise Survey of Explainable AI (XAI) Techniques – Methods, Applications, and Challenges*  
+  - *Domain-Aligned Framework for Explainable AI: Matching Techniques to Application Needs (DAX Framework)*
 - 📌 Exploring hybrid frameworks combining Machine Learning and Operations Research.
 - 🧬 Passionate about bridging theory and real-world applications.
 
 ---
+
 
 ## 📈 GitHub Stats
 

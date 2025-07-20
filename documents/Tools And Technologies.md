@@ -39,8 +39,9 @@
 </p>
 <p>
     <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
+    <img alt="Neo4j" src="https://img.shields.io/badge/-Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" />
     <img alt="Apache Cassandra DB" src="https://img.shields.io/badge/-Cassandra_DB-1287B1?style=flat-square&logo=apachecassandra&logoColor=white" />
-    <img alt="Postgre SQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+    <img alt="PostgreSQL" src="https://img.shields.io/badge/-Postgre_SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
     <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 <p>

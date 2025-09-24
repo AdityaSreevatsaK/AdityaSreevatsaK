@@ -4,7 +4,7 @@
 </p>
 
 <h2 align="center">
-  <em>Machine Learning Engineer | MTech in DS-ML-AI | Tech Enthusiast</em>
+  <em>AI/ML Engineer | Turning Research into Production-Ready AI</em>
 </h2>
 
 

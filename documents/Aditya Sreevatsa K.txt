@@ -1,0 +1,2 @@
+Source for `Aditya Sreevatsa K.svg`: 
+https://capsule-render.vercel.app/api?type=waving&height=300&color=E4004B&text=Aditya%20Sreevatsa%20K&fontAlignY=40&desc=AI/ML%20Engineer%20|%20Turning%20Research%20into%20Production-Ready%20AI&fontAlign=50&descColor=00E5FF&textBg=false&fontColor=FFFFFF&animation=twinkling&reversal=true&width=100%

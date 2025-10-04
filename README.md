@@ -1,12 +1,8 @@
 <h1 align="center">Hi, I'm Aditya Sreevatsa K!</h1>
-<p align="center">
-  <img src="documents/AdityaSreevatsaK.png" alt="Aditya" width="400" />
+<p align="center" style="background-color:#000000;">
+  <img src="documents/Aditya Sreevatsa K.svg" 
+  alt="AI-ML Engineer - Turning Research into Production-Ready AI."/>
 </p>
-
-<h2 align="center">
-  <em>AI/ML Engineer | Turning Research into Production-Ready AI</em>
-</h2>
-
 
 ---
 

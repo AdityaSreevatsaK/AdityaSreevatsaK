@@ -41,8 +41,8 @@
   Generation (RAG), and Agentic AI frameworks.
 * **Deep Learning & Applied ML:** Deeply versed in Deep Learning (PyTorch, TensorFlow) and a range of ML domains
   including Reinforcement Learning, Computer Vision, and Recommender Systems.
-* **End-to-End MLOps:** Experienced in the full model lifecycle, including containerisation (Docker), orchestration (
-  Kubernetes), CI/CD pipelines, and cloud deployment (AWS, Azure).
+* **End-to-End MLOps:** Experienced in the full model lifecycle, including containerisation (Docker), orchestration 
+ (Kubernetes), CI/CD pipelines, and cloud deployment (AWS, Azure).
 * **Big Data & Real-Time Processing:** Skilled in engineering scalable data pipelines for machine learning using Apache
   Spark, Apache Kafka, and distributed systems.
 
@@ -91,19 +91,19 @@
 
 ---
 
-## 🌐 Find Me Here
-
-<p align="left" style="display: flex; gap: 10px;">
-    <a href="https://adityasreevatsak-mle.netlify.app/" target="_blank">
-        <button style="background-color: #000; color: white; border: none; padding: 2px 2px; border-radius: 3px; display: flex; align-items: center; font-size: 12px;">
-            <img src="documents/ASK.svg" alt="icon" width="15" height="15" style="margin-right: 8px;">
-            Live Portfolio
-        </button>
-    </a>
-    <a href="https://www.linkedin.com/in/adityasreevatsak/">
-        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" />
-    </a>
-    <a href="https://github.com/AdityaSreevatsaK">
-        <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" />
-    </a>
-</p>
+[//]: # (## 🌐 Find Me Here)
+[//]: # ( )
+[//]: # (<p align="left" style="display: flex; gap: 10px;">)
+[//]: # (    <a href="https://adityasreevatsak-mle.netlify.app/" target="_blank">)
+[//]: # (        <button style="background-color: #000; color: white; border: none; padding: 2px 2px; border-radius: 3px; display: flex; align-items: center; font-size: 12px;">)
+[//]: # (            <img src="documents/ASK.svg" alt="icon" width="15" height="15" style="margin-right: 8px;">)
+[//]: # (            Live Portfolio)
+[//]: # (        </button>)
+[//]: # (    </a>)
+[//]: # (    <a href="https://www.linkedin.com/in/adityasreevatsak/">)
+[//]: # (        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin" />)
+[//]: # (    </a>)
+[//]: # (    <a href="https://github.com/AdityaSreevatsaK">)
+[//]: # (        <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github" />)
+[//]: # (    </a>)
+[//]: # (</p>)

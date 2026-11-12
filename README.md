@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="#selected-engineering-work">Selected work</a> ·
-  <a href="#engineering-experience">Experience</a> ·
+  <a href="#technical-decisions-in-practice">Engineering decisions</a> ·
   <a href="#open-source-collaboration">Open source</a> ·
   <a href="https://www.linkedin.com/in/adityasreevatsak/">LinkedIn</a> ·
   <a href="mailto:krishnan.adityasreevatsa@gmail.com">Contact</a>
@@ -37,26 +37,30 @@ I've worked across enterprise analytics, energy and banking, from production API
 
 One example of that philosophy is keeping [AET's project scaffolding](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit) separate from [AEA's evaluation responsibilities](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator). Their responsibilities should remain independently understandable and adoptable.
 
-### Engineering experience
+### Technical decisions in practice
 
-- **Senior AI Engineer** (2025 to present): Agentic analytics, Text-to-SQL, evaluation, back-end services and client-facing technical delivery.
-- **Infosys · Associate Consultant** (2024 to 2025): Knowledge graph querying, enterprise ML and API performance engineering.
-- **EY · Software Engineer** (2023 to 2024): Real-time data engineering and fraud-oriented ML pipelines.
-- **Accenture · Software Engineering Analyst** (2021 to 2023): Enterprise back-end and microservice development.
-
-*This public summary omits proprietary architecture, client-specific counts and unapproved impact figures.*
+- **Reusability before complexity.** Agent starters should expose clear contracts, configurable providers and understandable application boundaries, not require repeated setup in each new project.
+- **Testable without paid inference.** AET's [offline verification matrix](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/blob/master/docs/testing/comprehensive-matrix-2026-11-04.md) checks generated templates on Windows and Linux. It is evidence of repeatable checks, not a claim of production readiness or live model performance.
+- **Privacy by design.** My [personal library application](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library) separates public application code from private reading data, with offline access and deliberate cloud-storage boundaries.
 
 ### Open-source collaboration
 
-Contributing improvements upstream is part of how I work with established codebases:
+I contribute targeted reliability and compatibility fixes to established open-source projects. These are **selected upstream pull requests**, not activity from my own forks.
 
-- **[rossjrw #4934](https://github.com/rossjrw/rossjrw/pull/4934)**: recovery from stalled or unplayable game states (merged).
-- **[HTTPX2 #1330](https://github.com/pydantic/httpx2/pull/1330)**: retrying failed connection-pool stream closures.
-- **[HTTPX2 #1332](https://github.com/pydantic/httpx2/pull/1332)**: DigestAuth compatibility with an alternative authentication header.
+Status and dates come from the public GitHub pull-request API. The [scheduled updater](.github/workflows/profile-upstream.yml) will refresh only the reviewed entries after the profile design is approved for the default branch.
 
-### Current focus
+<!-- BEGIN:PROFILE_UPSTREAM -->
+| Upstream project | Contribution | Status | Date (UTC) |
+| :-- | :-- | :-- | :-- |
+| rossjrw | [Recover stalled game states (#4934)](https://github.com/rossjrw/rossjrw/pull/4934) | **Merged** | 11 Nov 2026 |
+| httpx2 | [Retry failed connection-pool closures (#1330)](https://github.com/pydantic/httpx2/pull/1330) | Open | 12 Nov 2026 |
+| httpx2 | [Support an alternative authentication header (#1332)](https://github.com/pydantic/httpx2/pull/1332) | Open | 12 Nov 2026 |
+| logfire | [Fix Windows CLI file locking (#2803)](https://github.com/pydantic/logfire/pull/2803) | Open | 12 Nov 2026 |
+<!-- END:PROFILE_UPSTREAM -->
 
-**Building reusable AI engineering tools** with offline testability, portable integrations and explicit quality checks. This is a curated project snapshot, not a live deployment-status feed.
+### Explore the engineering evidence
+
+For more implementation detail, see the [AET architecture deep dive](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/blob/master/PROJECT_DEEP_DIVE.md), [agent scaffolding tests](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/tree/master/tests), and [RAG Foundry examples](https://github.com/AdityaSreevatsaK/RAG-Foundry).
 
 <details>
 <summary><strong>More about me: education, recognition and technology</strong></summary>

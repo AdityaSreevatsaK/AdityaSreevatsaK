@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Professional GitHub profile introduction for Aditya Sreevatsa K">
+<title>Aditya Sreevatsa K, Senior AI Engineer</title>
+<desc>Custom graphic showing a professional introduction and a grounded representation of his engineering focus.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#9fbdb7" stroke-opacity=".13" stroke-width=".7"/></pattern></defs>
+<rect width="1200" height="340" rx="19" fill="#f1f4f0"/>
+
+
+ <rect x="0" y="0" width="1200" height="340" fill="url(#grid)" opacity=".55"/>
+ <rect x="48" y="43" width="5" height="37" rx="2" fill="#278979"/>
+ <text x="67" y="57" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#278979">ENGINEERING / ARCHITECTURE / SYSTEMS</text>
+ <text x="52" y="126" font-family="Georgia,serif" font-size="43" font-weight="700" fill="#243843">Aditya Sreevatsa K</text>
+ <text x="53" y="169" font-family="Arial,sans-serif" font-size="19" fill="#516b70">Senior AI Engineer</text>
+ <text x="53" y="213" font-family="Arial,sans-serif" font-size="21" font-weight="600" fill="#243843">From architecture</text>
+ <text x="53" y="243" font-family="Arial,sans-serif" font-size="21" font-weight="600" fill="#243843">to dependable delivery.</text>
+ <rect x="52" y="279" width="148" height="30" rx="15" fill="#e4eee9" stroke="#9fbdb7"/>
+ <text x="75" y="299" font-family="Arial,sans-serif" font-size="12" fill="#278979">AGENTIC AI</text>
+ <text x="214" y="299" font-family="Arial,sans-serif" font-size="12" fill="#516b70">RAG · EVALUATION · BACK-END</text>
+ <path d="M 690 56 V 285" stroke="#9fbdb7" stroke-opacity=".5"/>
+ <text x="764" y="60" font-family="Arial,sans-serif" letter-spacing="2.2" font-size="11" fill="#516b70">A SYSTEMS VIEW</text>
+ <path d="M 920 128 L 994 128" stroke="#9fbdb7" stroke-width="2" stroke-dasharray="6 7"><animate attributeName="stroke-dashoffset" from="0" to="-26" dur="4s" repeatCount="indefinite"/></path><path d="M 920 244 L 994 244" stroke="#9fbdb7" stroke-width="2" stroke-dasharray="6 7"><animate attributeName="stroke-dashoffset" from="0" to="-26" dur="4s" repeatCount="indefinite"/></path><path d="M 865 150 L 865 219 M1063 150 L1063 219" stroke="#9fbdb7" stroke-width="2" stroke-dasharray="6 7"><animate attributeName="stroke-dashoffset" from="0" to="-26" dur="4s" repeatCount="indefinite"/></path><rect x="796" y="94" width="162" height="79" rx="13" fill="#e4eee9" stroke="#9fbdb7" stroke-width="1.3"/><circle cx="819" cy="118" r="7" fill="#278979"/><text x="836" y="123" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.5" fill="#243843">DESIGN</text><text x="821" y="152" font-family="Arial,sans-serif" font-size="11" fill="#516b70">Boundaries &amp; contracts</text><rect x="994" y="94" width="162" height="79" rx="13" fill="#e4eee9" stroke="#9fbdb7" stroke-width="1.3"/><circle cx="1017" cy="118" r="7" fill="#278979"/><text x="1034" y="123" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.5" fill="#243843">ORCHESTRATE</text><text x="1019" y="152" font-family="Arial,sans-serif" font-size="11" fill="#516b70">Agents &amp; tools</text><rect x="796" y="210" width="162" height="79" rx="13" fill="#e4eee9" stroke="#9fbdb7" stroke-width="1.3"/><circle cx="819" cy="234" r="7" fill="#278979"/><text x="836" y="239" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.5" fill="#243843">EVALUATE</text><text x="821" y="268" font-family="Arial,sans-serif" font-size="11" fill="#516b70">Tests &amp; evidence</text><rect x="994" y="210" width="162" height="79" rx="13" fill="#e4eee9" stroke="#9fbdb7" stroke-width="1.3"/><circle cx="1017" cy="234" r="7" fill="#278979"/><text x="1034" y="239" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.5" fill="#243843">DELIVER</text><text x="1019" y="268" font-family="Arial,sans-serif" font-size="11" fill="#516b70">Services &amp; teams</text>
+ <text x="783" y="317" font-family="Arial,sans-serif" font-size="11" fill="#516b70">Design for real constraints, not only the first demo.</text>
+</svg>

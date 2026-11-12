@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Professional GitHub profile introduction for Aditya Sreevatsa K">
+<title>Aditya Sreevatsa K, Senior AI Engineer</title>
+<desc>Custom graphic showing a professional introduction and a grounded representation of his engineering focus.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#c7bcaa" stroke-opacity=".13" stroke-width=".7"/></pattern></defs>
+<rect width="1200" height="340" rx="19" fill="#f6f1e8"/>
+
+
+ <path d="M 60 54H1135" stroke="#c7bcaa"/>
+ <text x="62" y="43" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#a77447">A PROFESSIONAL JOURNEY</text>
+ <text x="62" y="128" font-family="Georgia,serif" font-size="47" fill="#253943">Engineering with</text>
+ <text x="62" y="184" font-family="Georgia,serif" font-size="47" font-style="italic" fill="#a77447">context &amp; craft.</text>
+ <text x="64" y="239" font-family="Arial,sans-serif" font-size="21" font-weight="600" fill="#253943">Aditya Sreevatsa K</text>
+ <text x="64" y="274" font-family="Arial,sans-serif" font-size="16" fill="#68716d">Senior AI Engineer · Bengaluru, India</text>
+ <path d="M 765 66 V307" stroke="#c7bcaa"/><path d="M830 88 V298" stroke="#c7bcaa" stroke-width="2"/>
+ <text x="828" y="43" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.5" fill="#a77447">PROGRESSION</text>
+ <circle cx="830" cy="88" r="6" fill="#28756c" stroke="#f6f1e8" stroke-width="3"/><text x="850" y="93" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#253943">2021</text><text x="940" y="93" font-family="Arial,sans-serif" font-size="13" letter-spacing="1" fill="#68716d">BACK-END</text><circle cx="830" cy="158" r="6" fill="#28756c" stroke="#f6f1e8" stroke-width="3"/><text x="850" y="163" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#253943">2023</text><text x="940" y="163" font-family="Arial,sans-serif" font-size="13" letter-spacing="1" fill="#68716d">APPLIED ML</text><circle cx="830" cy="228" r="6" fill="#28756c" stroke="#f6f1e8" stroke-width="3"/><text x="850" y="233" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#253943">2024</text><text x="940" y="233" font-family="Arial,sans-serif" font-size="13" letter-spacing="1" fill="#68716d">ENTERPRISE AI</text><circle cx="830" cy="298" r="6" fill="#28756c" stroke="#f6f1e8" stroke-width="3"/><text x="850" y="303" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#253943">2025</text><text x="940" y="303" font-family="Arial,sans-serif" font-size="13" letter-spacing="1" fill="#68716d">AGENTIC SYSTEMS</text>
+ 
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Professional GitHub profile introduction for Aditya Sreevatsa K">
+<title>Aditya Sreevatsa K, Senior AI Engineer</title>
+<desc>Custom graphic showing a professional introduction and a grounded representation of his engineering focus.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#557277" stroke-opacity=".13" stroke-width=".7"/></pattern></defs>
+<rect width="1200" height="340" rx="19" fill="#16212b"/>
+
+
+ <rect x="0" y="0" width="1200" height="340" fill="url(#grid)" opacity=".58"/>
+ <text x="56" y="59" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#83c9bb">ADITYA SREEVATSA K  /  SENIOR AI ENGINEER</text>
+ <text x="52" y="139" font-family="Georgia,serif" font-size="56" fill="#f6f2e9">The engineering</text>
+ <text x="54" y="198" font-family="Georgia,serif" font-size="56" font-style="italic" fill="#dbbb89">signal.</text>
+ <text x="56" y="249" font-family="Arial,sans-serif" font-size="17" fill="#b8c4c2">Designing, building and evaluating intelligent systems.</text>
+ <rect x="56" y="278" width="150" height="30" rx="15" fill="#253540"/><text x="72" y="298" font-family="Arial,sans-serif" font-size="12" fill="#83c9bb">AGENTIC SYSTEMS</text>
+ <rect x="215" y="278" width="159" height="30" rx="15" fill="#253540"/><text x="229" y="298" font-family="Arial,sans-serif" font-size="12" fill="#83c9bb">BACK-END &amp; RAG</text>
+ <line x1="620" y1="72" x2="620" y2="273" stroke="#557277"/>
+ <text x="689" y="68" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#b8c4c2">ENGINEERING CONTINUUM</text>
+ <path d="M 743 155 L 923 155 L 1104 155" fill="none" stroke="#557277" stroke-width="2" stroke-dasharray="7 7"/>
+ <circle cx="743" cy="155" r="24" fill="#253540" stroke="#83c9bb" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3.5s" repeatCount="indefinite"/></circle><circle cx="743" cy="155" r="7" fill="#83c9bb"/><text x="743" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing=".7" fill="#f6f2e9">BUILD</text><text x="743" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#b8c4c2">Architecture</text>
+ <circle cx="923" cy="155" r="24" fill="#253540" stroke="#83c9bb" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3.5s" repeatCount="indefinite"/></circle><circle cx="923" cy="155" r="7" fill="#83c9bb"/><text x="923" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing=".7" fill="#f6f2e9">VERIFY</text><text x="923" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#b8c4c2">Evaluation</text>
+ <circle cx="1104" cy="155" r="24" fill="#253540" stroke="#83c9bb" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3.5s" repeatCount="indefinite"/></circle><circle cx="1104" cy="155" r="7" fill="#83c9bb"/><text x="1104" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing=".7" fill="#f6f2e9">SHIP</text><text x="1104" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#b8c4c2">Delivery</text>
+ <text x="749" y="278" font-family="Arial,sans-serif" font-size="13" fill="#b8c4c2">Public code · production experience · open source</text>
+ 
+</svg>

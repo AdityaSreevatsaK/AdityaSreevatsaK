@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="322" viewBox="0 0 1200 322" role="img" aria-label="Aditya Sreevatsa K. Projects, applications and open-source code.">
+<rect width="1200" height="322" rx="16" fill="#F5F0E7"/>
+<g stroke="#E4E3DD" stroke-width="1" opacity="0.65"><path d="M0 0V322"/><path d="M80 0V322"/><path d="M160 0V322"/><path d="M240 0V322"/><path d="M320 0V322"/><path d="M400 0V322"/><path d="M480 0V322"/><path d="M560 0V322"/><path d="M640 0V322"/><path d="M720 0V322"/><path d="M800 0V322"/><path d="M880 0V322"/><path d="M960 0V322"/><path d="M1040 0V322"/><path d="M1120 0V322"/><path d="M1200 0V322"/><path d="M0 0H1200"/><path d="M0 80H1200"/><path d="M0 160H1200"/><path d="M0 240H1200"/><path d="M0 320H1200"/></g>
+<rect x="0" y="0" width="12" height="322" rx="6" fill="#B95A45"/>
+<text x="57" y="60" fill="#B95A45" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">GITHUB  /  PROJECT SHELF</text>
+<text x="55" y="139" fill="#172636" font-family="Arial, sans-serif" font-size="61" font-weight="800" letter-spacing="-1.7">ADITYA</text>
+<text x="55" y="206" fill="#172636" font-family="Arial, sans-serif" font-size="61" font-weight="800" letter-spacing="-1.7">SREEVATSA K</text>
+<rect x="57" y="228" width="135" height="4" rx="2" fill="#B95A45"/>
+<text x="57" y="274" fill="#58707F" font-family="Arial, sans-serif" font-size="18" letter-spacing="1.7">AGENT SYSTEMS   ·   BACK-END   ·   APPS</text>
+<g transform="translate(806 48)">
+<rect x="32" y="12" width="273" height="230" rx="15" fill="#FFFCF6" stroke="#D4D5CF" stroke-width="2"/>
+<rect x="0" y="32" width="273" height="230" rx="15" fill="#FFFCF6" stroke="#D4D5CF" stroke-width="2"/>
+<rect x="25" y="53" width="221" height="37" rx="6" fill="#B95A45" fill-opacity=".16"/>
+<circle cx="48" cy="71" r="9" fill="#B95A45"/><path d="M73 72h142" stroke="#B95A45" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<rect x="25" y="105" width="102" height="110" rx="10" fill="#268E91" fill-opacity=".12" stroke="#268E91" stroke-opacity=".45"/>
+<rect x="140" y="105" width="106" height="50" rx="9" fill="#B95A45" fill-opacity=".1" stroke="#B95A45" stroke-opacity=".5"/>
+<rect x="140" y="165" width="106" height="50" rx="9" fill="#268E91" fill-opacity=".11" stroke="#268E91" stroke-opacity=".5"/>
+<path d="M51 132h50M51 151h34M51 170h43M51 188h24" stroke="#268E91" stroke-width="5" stroke-linecap="round"/>
+<circle cx="162" cy="130" r="9" fill="#B95A45"/><path d="M180 131h47" stroke="#B95A45" stroke-width="4" stroke-linecap="round"/>
+<circle cx="162" cy="190" r="9" fill="#268E91"/><path d="M180 191h47" stroke="#268E91" stroke-width="4" stroke-linecap="round"/>
+<text x="25" y="242" font-size="11" letter-spacing="2" fill="#58707F" font-family="Arial, sans-serif">SELECTED REPOSITORIES</text>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="286" viewBox="0 0 600 286" role="img" aria-label="Agent Engineering Accelerator: Agent evaluation and regression tooling. In development">
+<rect width="600" height="286" rx="15" fill="#182532" stroke="#344551" stroke-width="2"/>
+<rect x="0" y="0" width="600" height="7" rx="3" fill="#F8AA83"/>
+<text x="26" y="43" fill="#F8AA83" font-size="16" font-weight="700" letter-spacing="2" font-family="Arial, sans-serif">02  /  QUALITY &amp; TESTING</text>
+<text x="26" y="94" fill="#F7F0E6" font-size="26" font-weight="700" letter-spacing="-0.5" font-family="Arial, sans-serif">Agent Engineering Accelerator</text>
+<text x="26" y="141" fill="#A9B7BF" font-size="17" font-family="Arial, sans-serif">Agent evaluation and regression tooling</text>
+<text x="26" y="170" fill="#A9B7BF" font-size="17" font-family="Arial, sans-serif">In development</text>
+<g transform="translate(420 88)" fill="none" stroke="#74D7CA" stroke-width="3"><path d="M0 67h18l15-32 17 54 19-71 20 47h46" stroke="#F8AA83" stroke-linejoin="round"/><rect x="8" y="2" width="124" height="100" rx="12" stroke="#A9B7BF" stroke-opacity=".4"/><path d="M95 22l10 10 17-20" stroke="#74D7CA" stroke-width="4"/></g>
+<path d="M26 215H574" stroke="#344551" stroke-width="1.3"/>
+<text x="26" y="251" fill="#74D7CA" font-size="14" font-weight="700" letter-spacing="1.1" font-family="Arial, sans-serif">PYTHON  /  AGENT EVALUATION</text>
+<text x="546" y="250" fill="#F8AA83" font-size="24" font-family="Arial, sans-serif">↗</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="286" viewBox="0 0 600 286" role="img" aria-label="Taiyou's Personal Library: Installable EPUB reader · offline support. Public application, private content">
+<rect width="600" height="286" rx="15" fill="#FFFCF6" stroke="#D4D5CF" stroke-width="2"/>
+<rect x="0" y="0" width="600" height="7" rx="3" fill="#B95A45"/>
+<text x="26" y="43" fill="#B95A45" font-size="16" font-weight="700" letter-spacing="2" font-family="Arial, sans-serif">03  /  WEB APPLICATION</text>
+<text x="26" y="94" fill="#172636" font-size="32" font-weight="700" letter-spacing="-0.5" font-family="Arial, sans-serif">Taiyou's Personal Library</text>
+<text x="26" y="141" fill="#58707F" font-size="17" font-family="Arial, sans-serif">Installable EPUB reader · offline support</text>
+<text x="26" y="170" fill="#58707F" font-size="17" font-family="Arial, sans-serif">Public application, private content</text>
+<g transform="translate(425 81)" fill="none" stroke="#268E91" stroke-width="3"><path d="M8 16Q39 0 70 20v100Q39 100 8 116Z"/><path d="M70 20Q101 0 132 16v100Q101 100 70 120Z"/><path d="M25 42h29M25 58h35M25 74h22M85 42h29M85 58h24M85 74h32" stroke="#B95A45" stroke-width="3"/><path d="M70 20v100" stroke="#B95A45"/></g>
+<path d="M26 215H574" stroke="#D4D5CF" stroke-width="1.3"/>
+<text x="26" y="251" fill="#268E91" font-size="14" font-weight="700" letter-spacing="1.1" font-family="Arial, sans-serif">WEB  /  OFFLINE-FIRST</text>
+<text x="546" y="250" fill="#B95A45" font-size="24" font-family="Arial, sans-serif">↗</text>
+</svg>

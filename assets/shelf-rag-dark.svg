@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="286" viewBox="0 0 600 286" role="img" aria-label="RAG Foundry: Retrieval and grounded QA experiments. Hands-on LangChain and LlamaIndex">
+<rect width="600" height="286" rx="15" fill="#182532" stroke="#344551" stroke-width="2"/>
+<rect x="0" y="0" width="600" height="7" rx="3" fill="#F8AA83"/>
+<text x="26" y="43" fill="#F8AA83" font-size="16" font-weight="700" letter-spacing="2" font-family="Arial, sans-serif">04  /  APPLIED AI</text>
+<text x="26" y="94" fill="#F7F0E6" font-size="32" font-weight="700" letter-spacing="-0.5" font-family="Arial, sans-serif">RAG Foundry</text>
+<text x="26" y="141" fill="#A9B7BF" font-size="17" font-family="Arial, sans-serif">Retrieval and grounded QA experiments</text>
+<text x="26" y="170" fill="#A9B7BF" font-size="17" font-family="Arial, sans-serif">Hands-on LangChain and LlamaIndex</text>
+<g transform="translate(418 80)" stroke="#74D7CA" stroke-width="2.5" fill="none"><circle cx="19" cy="24" r="13"/><circle cx="111" cy="20" r="15"/><circle cx="70" cy="97" r="20"/><path d="M32 27l64-4M27 35l31 47M100 34L81 79" stroke="#A9B7BF" stroke-dasharray="5 4"/><circle cx="19" cy="24" r="5" fill="#F8AA83" stroke="none"/><circle cx="111" cy="20" r="6" fill="#F8AA83" stroke="none"/><path d="M60 98h20M70 88v20" stroke="#74D7CA" stroke-width="3"/></g>
+<path d="M26 215H574" stroke="#344551" stroke-width="1.3"/>
+<text x="26" y="251" fill="#74D7CA" font-size="14" font-weight="700" letter-spacing="1.1" font-family="Arial, sans-serif">PYTHON  /  EXPERIMENTS</text>
+<text x="546" y="250" fill="#F8AA83" font-size="24" font-family="Arial, sans-serif">↗</text>
+</svg>

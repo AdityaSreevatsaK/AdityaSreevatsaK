@@ -1,0 +1,60 @@
+name: Verify and update selected upstream contributions
+
+on:
+  push:
+    branches: [design/project-shelf-v1]
+    paths:
+      - README.md
+      - scripts/profile_upstream.py
+      - tests/test_profile_upstream.py
+      - .github/workflows/profile-upstream.yml
+  workflow_dispatch:
+  schedule:
+    # Runs only after the design is approved and merged into the default branch.
+    - cron: '17 5,17 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run self-contained offline tests
+        run: python -m unittest discover -s tests -p 'test_profile_upstream.py' -v
+
+  refresh:
+    # Design-branch pushes only validate. Scheduled refreshes happen on main
+    # after the owner separately approves a merge.
+    if: github.event_name != 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: profile-upstream-refresh
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh reviewed PR statuses
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/profile_upstream.py
+      - name: Commit only when the README changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs(profile): refresh selected upstream PR statuses'
+            git push
+          fi

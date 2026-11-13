@@ -7,47 +7,30 @@
 </div>
 
 <p align="center">
-  <a href="#selected-engineering-work">Selected work</a> ·
-  <a href="#technical-decisions-in-practice">Engineering decisions</a> ·
-  <a href="#open-source-collaboration">Open source</a> ·
-  <a href="https://www.linkedin.com/in/adityasreevatsak/">LinkedIn</a> ·
-  <a href="mailto:krishnan.adityasreevatsa@gmail.com">Contact</a>
+  <a href="#projects">Projects</a> ·
+  <a href="#open-source">Open source</a> ·
+  <a href="#technologies">Technologies</a> ·
+  <a href="https://www.linkedin.com/in/adityasreevatsak/">LinkedIn</a>
 </p>
 
-## Hello, I'm Aditya.
+## Hi, I'm Aditya 👋
 
-I'm a **Senior AI Engineer**, building enterprise AI applications and the engineering foundations behind them. My work combines **agent orchestration, RAG, Text-to-SQL, evaluation, back-end architecture and technical delivery**.
+I'm a **Senior AI Engineer** working on agentic AI, RAG, LLM evaluation and back-end systems. I like building useful software, particularly tools that make AI development easier to start, test and maintain.
 
-I've worked across enterprise analytics, energy and banking, from production APIs and ML pipelines to multi-agent systems. I care equally about what a system can do and how teams can test, extend and operate it.
+### Projects
 
-### Selected engineering work
-
-| | What I built and why it matters |
+| Project | What you'll find |
 | :-- | :-- |
-| **[AET · Agentic Engineering Toolkit](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit)** | A local-first scaffolder for agent applications. It produces configurable LangGraph, AWS Strands and LlamaIndex project starters, with offline mock validation and opt-in model integrations. **Engineering prototype, not production-certified.** |
-| **[AEA · Agent Engineering Accelerator](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator)** | An in-progress effort to make agent behaviour testable through evaluation, regression comparisons and quality checks. Public-facing documentation is being rebuilt. |
-| **[RAG Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)** | Experiments and practical implementations of retrieval-augmented question answering and grounded responses. |
-| **[Taiyou's Personal Library](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library)** | An installable web reader that demonstrates front-end, API, private storage, authentication, offline and deployment engineering. The code is public; reading data remains private. |
+| **[Agentic Engineering Toolkit (AET)](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit)** | A local-first CLI for scaffolding LangGraph, AWS Strands and LlamaIndex applications. Includes mock-powered tests and optional model providers. [Architecture notes](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/blob/master/PROJECT_DEEP_DIVE.md). |
+| **[Agent Engineering Accelerator (AEA)](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator)** | Work in progress: evaluation, regression testing and quality checks for AI agents. |
+| **[Taiyou's Personal Library](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library)** | A responsive web reader with authentication, offline reading and private content storage. |
+| **[RAG Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)** | Practical RAG experiments covering retrieval, orchestration and grounded question answering. |
 
-### How I think about engineering
+<sub>Also exploring [NLP](https://github.com/AdityaSreevatsaK/NLP-Navigator), [PySpark](https://github.com/AdityaSreevatsaK/PySpark-Pipeline) and [deep learning](https://github.com/AdityaSreevatsaK/The-Neural-Nexus).</sub>
 
-| **01 · Architecture** | **02 · Retrieval & tools** | **03 · Evaluation** | **04 · Delivery** |
-| :-- | :-- | :-- | :-- |
-| Clear boundaries and interfaces | Grounded outputs and explicit dependencies | Reproducible tests and honest evidence | Maintainability, documentation and operational care |
+### Open source
 
-One example of that philosophy is keeping [AET's project scaffolding](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit) separate from [AEA's evaluation responsibilities](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator). Their responsibilities should remain independently understandable and adoptable.
-
-### Technical decisions in practice
-
-- **Reusability before complexity.** Agent starters should expose clear contracts, configurable providers and understandable application boundaries, not require repeated setup in each new project.
-- **Testable without paid inference.** AET's [offline verification matrix](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/blob/master/docs/testing/comprehensive-matrix-2026-11-04.md) checks generated templates on Windows and Linux. It is evidence of repeatable checks, not a claim of production readiness or live model performance.
-- **Privacy by design.** My [personal library application](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library) separates public application code from private reading data, with offline access and deliberate cloud-storage boundaries.
-
-### Open-source collaboration
-
-I contribute targeted reliability and compatibility fixes to established open-source projects. These are **selected upstream pull requests**, not activity from my own forks.
-
-Status and dates come from the public GitHub pull-request API. The [scheduled updater](.github/workflows/profile-upstream.yml) will refresh only the reviewed entries after the profile design is approved for the default branch.
+Selected pull requests to projects outside my own repositories. Their statuses are checked by a [GitHub Action](.github/workflows/profile-upstream.yml) every 12 hours when this profile is on the default branch.
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
 | Upstream project | Contribution | Status | Date (UTC) |
@@ -58,24 +41,18 @@ Status and dates come from the public GitHub pull-request API. The [scheduled up
 | logfire | [Fix Windows CLI file locking (#2803)](https://github.com/pydantic/logfire/pull/2803) | Open | 12 Nov 2026 |
 <!-- END:PROFILE_UPSTREAM -->
 
-### Explore the engineering evidence
+### Technologies
 
-For more implementation detail, see the [AET architecture deep dive](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/blob/master/PROJECT_DEEP_DIVE.md), [agent scaffolding tests](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit/tree/master/tests), and [RAG Foundry examples](https://github.com/AdityaSreevatsaK/RAG-Foundry).
+**AI & agents** · `Python` `LangGraph` `AWS Strands` `LlamaIndex` `LangChain` `PyTorch`
 
-<details>
-<summary><strong>More about me: education, recognition and technology</strong></summary>
+**Back-end & data** · `FastAPI` `Java` `Spring Boot` `PostgreSQL` `Kafka` `PySpark`
 
-**Education:** M.Tech in Data Science, ML & AI, PES University, **9.9/10 GPA, first in cohort** (2026); B.E. in Mechanical Engineering, CMR Institute of Technology (2021).
-
-**Recognition:** Infosys Gracias Awards; EY User Appreciation Award; Accenture ACE Award and Top Performer recognition; PES University merit scholarship.
-
-**AI & agents:** Python, LangGraph, AWS Strands, LangChain, LlamaIndex, RAG, LLM evaluation, PyTorch, TensorFlow.  
-**Software & data:** Java, FastAPI, Spring Boot, SQL, Kafka, PySpark, Neo4j, PostgreSQL, Pinecone.  
-**Platforms:** AWS, Azure, Docker, Kubernetes, GitHub Actions, CI/CD.
-
-**More repositories:** [NLP Navigator](https://github.com/AdityaSreevatsaK/NLP-Navigator) · [PySpark Pipeline](https://github.com/AdityaSreevatsaK/PySpark-Pipeline) · [The Neural Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus).
-</details>
+**Tooling & platforms** · `Docker` `GitHub Actions` `AWS` `Azure` `Git`
 
 ---
 
-<p align="center"><sub>Thoughtful architecture. Testable systems. Useful software.</sub></p>
+<p align="center">
+  <a href="https://github.com/AdityaSreevatsaK?tab=repositories">All repositories</a> ·
+  <a href="https://www.linkedin.com/in/adityasreevatsak/">LinkedIn</a> ·
+  <a href="mailto:krishnan.adityasreevatsa@gmail.com">Email</a>
+</p>

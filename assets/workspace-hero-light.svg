@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Aditya Sreevatsa K. A repository workspace for agent systems, applications and developer tools.">
+<rect width="1200" height="360" rx="16" fill="#EFF5F1"/>
+<rect x="26" y="27" width="1148" height="304" rx="14" stroke="#C1D7CA" fill="#FBFEFA" stroke-width="2"/>
+<path d="M26 77H1174" stroke="#C1D7CA" stroke-width="2"/>
+<circle cx="55" cy="52" r="7" fill="#AD6B36"/><circle cx="79" cy="52" r="7" fill="#187A58" opacity=".8"/><circle cx="103" cy="52" r="7" stroke="#5C7972" stroke-width="2" fill="none"/>
+<text x="148" y="57" fill="#5C7972" font-size="17" font-family="Consolas, monospace">~/github/AdityaSreevatsaK</text>
+<rect x="1028" y="41" width="114" height="23" rx="6" fill="#D9EEE3" stroke="#C1D7CA"/>
+<text x="1085" y="57" fill="#187A58" font-family="Consolas, monospace" text-anchor="middle" font-size="13">README</text>
+<text x="64" y="118" fill="#187A58" font-size="16" letter-spacing="2" font-family="Consolas, monospace">[  PROFILE  /  REPOSITORIES  ]</text>
+<text x="64" y="185" fill="#14392D" font-size="50" font-weight="700" letter-spacing="-2" font-family="Arial, sans-serif">ADITYA SREEVATSA K</text>
+<text x="64" y="228" fill="#5C7972" font-size="20" font-family="Consolas, monospace">AI engineering  /  back-end  /  open-source</text>
+<rect x="63" y="259" width="382" height="45" rx="7" fill="#E4EDE7" stroke="#C1D7CA"/>
+<text x="83" y="288" fill="#187A58" font-size="18" font-family="Consolas, monospace">4</text>
+<text x="108" y="288" fill="#14392D" font-size="16" font-family="Consolas, monospace">featured repositories</text>
+<rect x="673" y="105" width="460" height="200" rx="11" fill="#EFF5F1" stroke="#C1D7CA"/>
+<text x="698" y="137" fill="#187A58" font-size="16" font-family="Consolas, monospace">/workspace</text>
+<path d="M711 157v117M711 179h20M711 209h20M711 240h20M711 274h20" stroke="#C1D7CA" stroke-width="2" fill="none"/>
+<text x="741" y="184" fill="#14392D" font-size="17" font-family="Consolas, monospace">agentic-engineering-toolkit</text>
+<text x="741" y="214" fill="#14392D" font-size="17" font-family="Consolas, monospace">agent-engineering-accelerator</text>
+<text x="741" y="244" fill="#14392D" font-size="17" font-family="Consolas, monospace">Taiyous-Personal-Library</text>
+<text x="741" y="275" fill="#14392D" font-size="17" font-family="Consolas, monospace">RAG-Foundry</text>
+<rect x="1080" y="161" width="30" height="30" rx="5" fill="#187A58" opacity=".16"/><path d="M1088 176h15M1095 169v15" stroke="#187A58" stroke-width="2"/>
+</svg>

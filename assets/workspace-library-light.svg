@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="TAIYOU'S PERSONAL LIBRARY. Installable EPUB reader with private storage. Offline-capable application shell">
+<rect x="1" y="1" width="1198" height="158" rx="13" fill="#FBFEFA" stroke="#C1D7CA" stroke-width="2"/>
+<rect x="15" y="16" width="70" height="127" rx="9" fill="#D9EEE3" />
+<text x="50" y="86" font-size="32" font-family="Consolas, monospace" text-anchor="middle" fill="#187A58">03</text>
+<text x="111" y="42" font-size="13" font-weight="700" letter-spacing="2" font-family="Consolas, monospace" fill="#187A58">WEB APP / OFFLINE</text>
+<text x="111" y="85" font-size="30" font-weight="700" font-family="Arial, sans-serif" fill="#14392D">TAIYOU'S PERSONAL LIBRARY</text>
+<text x="111" y="118" font-size="17" font-family="Consolas, monospace" fill="#5C7972">Installable EPUB reader with private storage</text>
+<text x="111" y="140" font-size="15" font-family="Consolas, monospace" fill="#5C7972">Offline-capable application shell</text>
+<rect x="946" y="55" width="216" height="55" rx="9" fill="#E4EDE7" stroke="#C1D7CA"/>
+<text x="965" y="88" fill="#AD6B36" font-family="Consolas, monospace" font-size="17">READ</text>
+<path d="M1120 81h20m-8-8l8 8-8 8" stroke="#187A58" stroke-width="3" fill="none"/>
+</svg>

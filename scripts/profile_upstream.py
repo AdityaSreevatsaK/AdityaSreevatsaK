@@ -1,8 +1,11 @@
-"""Update only the reviewed upstream pull-request table in a profile README.
+"""Discover public upstream PRs and refresh the profile's contribution table.
 
-This is deliberately a curated list, rather than an unrestricted public-event
-feed. The recorded summaries are approved text, while states and timestamps
-come from the official public GitHub pull-request API. Python stdlib only.
+Only PRs authored by the profile owner in repositories owned by other accounts
+are displayed. Newly discovered PRs use a neutral numbered label until their
+summary has been reviewed; external API titles and descriptions are never
+copied into the README. This deliberately avoids exposing unintended text.
+
+The script uses only the Python standard library and writes on success only.
 """
 
 from __future__ import annotations
@@ -10,118 +13,207 @@ from __future__ import annotations
 import json
 import os
 import re
+import urllib.parse
 import urllib.request
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
+PROFILE_LOGIN = "AdityaSreevatsaK"
 README_PATH = Path(__file__).resolve().parents[1] / "README.md"
 BEGIN = "<!-- BEGIN:PROFILE_UPSTREAM -->"
 END = "<!-- END:PROFILE_UPSTREAM -->"
+PER_PAGE = 100
+MAX_PAGES = 10
+MAX_OPEN_SHOWN = 12
+MAX_MERGED_SHOWN = 3
+
+# Safe, manually checked summaries. Future PRs are discovered without editing
+# this mapping; they appear with a neutral numeric label until curated.
+REVIEWED_SUMMARIES = {
+    ("pytest-dev/pytest-cov", 775): "Fix coverage merging for custom file tracers",
+    ("pydantic/httpx2", 1334): "Fix HTTP/2 response stalls",
+    ("pydantic/httpx2", 1333): "Support larger SSE events",
+    ("pydantic/logfire", 2803): "Fix Windows log-clean file locking",
+    ("pydantic/httpx2", 1332): "Support an alternative authentication header",
+    ("pydantic/httpx2", 1330): "Retry failed pool stream closures",
+    ("rossjrw/rossjrw", 4934): "Recover stalled game states",
+}
 
 
-@dataclass(frozen=True)
-class TrackedPR:
-    repository: str
-    number: int
-    summary: str
+class UpstreamUpdateError(ValueError):
+    """Prevent incomplete or unexpected API responses from changing the README."""
 
 
-# Add new contributions only after reviewing what will be displayed publicly.
-TRACKED = (
-    TrackedPR("rossjrw/rossjrw", 4934, "Recover stalled game states"),
-    TrackedPR("pydantic/httpx2", 1330, "Retry failed connection-pool closures"),
-    TrackedPR("pydantic/httpx2", 1332, "Support an alternative authentication header"),
-    TrackedPR("pydantic/logfire", 2803, "Fix Windows CLI file locking"),
-)
+def query_for(state: str, login: str = PROFILE_LOGIN) -> str:
+    if state not in {"open", "merged"}:
+        raise ValueError("Unsupported state")
+    if not re.fullmatch(r"[A-Za-z0-9-]{1,39}", login):
+        raise ValueError("Invalid GitHub login")
+    return f"is:pr author:{login} is:{state} is:public -user:{login}"
 
 
-def load_public_pr(item: TrackedPR, token: str = "") -> dict[str, Any]:
-    url = f"https://api.github.com/repos/{item.repository}/pulls/{item.number}"
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "engineering-signal-readme",
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request, timeout=20) as response:
-        data = json.load(response)
-    if not isinstance(data, dict):
-        raise ValueError("Unexpected API payload")
-    return data
-
-
-def format_day(value: str) -> str:
-    if not value:
-        raise ValueError("Missing GitHub update timestamp")
-    date = datetime.fromisoformat(value.replace("Z", "+00:00"))
-    if date.tzinfo is None:
-        raise ValueError("GitHub timestamp must include a time zone")
-    return date.astimezone(timezone.utc).strftime("%d %b %Y")
-
-
-def render_row(item: TrackedPR, response: dict[str, Any]) -> str:
-    actual_repository = ((response.get("base") or {}).get("repo") or {}).get("full_name")
-    if actual_repository != item.repository or response.get("number") != item.number:
-        raise ValueError(f"Unexpected repository or pull request for {item.repository} #{item.number}")
-
-    if response.get("merged_at"):
-        status = "**Merged**"
-        event_time = response["merged_at"]
-    elif response.get("state") == "open":
-        status = "Draft" if response.get("draft") else "Open"
-        event_time = response.get("updated_at")
-    elif response.get("state") == "closed":
-        status = "Closed (not merged)"
-        event_time = response.get("updated_at")
-    else:
-        raise ValueError("Unknown GitHub pull request state")
-
-    # Only human-reviewed labels appear. Never insert remotely supplied PR titles,
-    # descriptions, commit messages, or repository metadata into the public README.
-    label = item.repository.split("/", 1)[1]
-    url = f"https://github.com/{item.repository}/pull/{item.number}"
-    return f"| {label} | [{item.summary} (#{item.number})]({url}) | {status} | {format_day(event_time)} |"
-
-
-def render_table(rows: list[str]) -> str:
-    return "\n".join(
-        [
-            "| Upstream project | Contribution | Status | Date (UTC) |",
-            "| :-- | :-- | :-- | :-- |",
-            *rows,
-        ]
+def search_page(query: str, page: int, token: str = "") -> dict[str, Any]:
+    params = urllib.parse.urlencode(
+        {"q": query, "per_page": PER_PAGE, "page": page, "sort": "updated", "order": "desc"}
     )
+    request = urllib.request.Request(
+        f"https://api.github.com/search/issues?{params}",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "github-profile-upstream-contributions",
+            "X-GitHub-Api-Version": "2022-11-28",
+            **({"Authorization": f"Bearer {token}"} if token else {}),
+        },
+    )
+    with urllib.request.urlopen(request, timeout=25) as response:
+        payload = json.load(response)
+    if not isinstance(payload, dict):
+        raise UpstreamUpdateError("Unexpected search result type")
+    return payload
 
 
-def replace_section(readme: str, new_table: str) -> str:
+def search_all(query: str, fetcher: Callable[[str, int, str], dict[str, Any]], token: str = "") -> list[dict[str, Any]]:
+    results: list[dict[str, Any]] = []
+    total = None
+    for page in range(1, MAX_PAGES + 1):
+        data = fetcher(query, page, token)
+        if not isinstance(data, dict) or data.get("incomplete_results") is not False:
+            raise UpstreamUpdateError("GitHub search returned incomplete data")
+        if not isinstance(data.get("total_count"), int) or data["total_count"] < 0:
+            raise UpstreamUpdateError("Invalid total_count")
+        if total is None:
+            total = data["total_count"]
+            if total > MAX_PAGES * PER_PAGE:
+                raise UpstreamUpdateError("Search exceeds safe pagination cap")
+        elif total != data["total_count"]:
+            raise UpstreamUpdateError("Search results changed during pagination")
+        items = data.get("items")
+        if not isinstance(items, list):
+            raise UpstreamUpdateError("Search results missing items")
+        results.extend(items)
+        if len(results) >= total:
+            return results[:total]
+        if not items:
+            raise UpstreamUpdateError("Missing page of search results")
+    raise UpstreamUpdateError("Search pagination did not finish")
+
+
+def to_record(item: dict[str, Any], login: str = PROFILE_LOGIN, expected: str = "open") -> dict[str, str] | None:
+    if not isinstance(item, dict):
+        raise UpstreamUpdateError("Unexpected search item")
+    base = item.get("repository_url")
+    if not isinstance(base, str) or not base.startswith("https://api.github.com/repos/"):
+        raise UpstreamUpdateError("Unexpected repository URL")
+    repository = base.removeprefix("https://api.github.com/repos/")
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", repository):
+        raise UpstreamUpdateError("Invalid repository name")
+    owner = repository.split("/", 1)[0]
+    if owner.casefold() == login.casefold():
+        return None
+    user = item.get("user") or {}
+    if user.get("login", login).casefold() != login.casefold():
+        raise UpstreamUpdateError("Search result authored by another account")
+    number = item.get("number")
+    if not isinstance(number, int) or isinstance(number, bool) or number <= 0:
+        raise UpstreamUpdateError("Invalid pull request number")
+    expected_url = f"https://github.com/{repository}/pull/{number}"
+    if item.get("html_url") != expected_url:
+        raise UpstreamUpdateError("PR link does not match repository and number")
+    metadata = item.get("pull_request") or {}
+    if metadata.get("html_url") != expected_url:
+        raise UpstreamUpdateError("Missing or inconsistent PR metadata")
+    if expected == "open":
+        if item.get("state") != "open" or metadata.get("merged_at"):
+            raise UpstreamUpdateError("Open search returned non-open PR")
+        stamp = item.get("updated_at")
+        status = "Draft" if item.get("draft") else "Open"
+    elif expected == "merged":
+        stamp = metadata.get("merged_at")
+        if item.get("state") != "closed" or not stamp:
+            raise UpstreamUpdateError("Merged search returned unmerged PR")
+        status = "**Merged**"
+    else:
+        raise UpstreamUpdateError("Unsupported status")
+    try:
+        parsed = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            raise ValueError("No timezone")
+    except (ValueError, TypeError, AttributeError) as exc:
+        raise UpstreamUpdateError("Invalid GitHub timestamp") from exc
+    return {
+        "repository": repository,
+        "number": number,
+        "url": expected_url,
+        "status": status,
+        "updated": parsed.astimezone(timezone.utc).strftime("%d %b %Y"),
+        "sort_time": parsed.isoformat(),
+    }
+
+
+def collect(fetcher: Callable[[str, int, str], dict[str, Any]] = search_page,
+            token: str = "", login: str = PROFILE_LOGIN) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    groups = []
+    for status in ("open", "merged"):
+        raw = search_all(query_for(status, login), fetcher, token)
+        found: dict[str, dict[str, str]] = {}
+        for item in raw:
+            record = to_record(item, login, status)
+            if record is not None:
+                found[record["url"]] = record
+        groups.append(sorted(found.values(), key=lambda rec: rec["sort_time"], reverse=True))
+    return groups[0], groups[1]
+
+
+def row(pr: dict[str, str]) -> str:
+    repo = pr["repository"]
+    number = pr["number"]
+    label = REVIEWED_SUMMARIES.get((repo, number), f"Pull request #{number}")
+    # The repository/URL are validated. Labels are only trusted local literals.
+    return f"| {repo} | [{label} (#{number})]({pr['url']}) | {pr['status']} | {pr['updated']} |"
+
+
+def render(open_prs: list[dict[str, str]], merged_prs: list[dict[str, str]]) -> str:
+    header = (
+        f"**Open upstream PRs: {len(open_prs)}** · **Merged: {len(merged_prs)}** · "
+        f"[View all upstream PRs](https://github.com/pulls?q=is%3Apr+author%3A{PROFILE_LOGIN}+-user%3A{PROFILE_LOGIN})"
+    )
+    rows = [
+        header,
+        "",
+        "| Repository | Contribution | Status | Last activity (UTC) |",
+        "| :-- | :-- | :-- | :-- |",
+        *(row(pr) for pr in open_prs[:MAX_OPEN_SHOWN]),
+        *(row(pr) for pr in merged_prs[:MAX_MERGED_SHOWN]),
+    ]
+    if len(open_prs) > MAX_OPEN_SHOWN:
+        rows.append(f"\nShowing the {MAX_OPEN_SHOWN} most recently active open PRs; follow the link above for the full list.")
+    return "\n".join(rows)
+
+
+def replace_section(readme: str, content: str) -> str:
     if readme.count(BEGIN) != 1 or readme.count(END) != 1:
-        raise ValueError("Expected exactly one matching pair of activity markers")
+        raise UpstreamUpdateError("Expected one matching pair of section markers")
     start = readme.index(BEGIN) + len(BEGIN)
-    finish = readme.index(END)
-    if start >= finish:
-        raise ValueError("Activity markers are out of order")
-    return readme[:start] + "\n" + new_table + "\n" + readme[finish:]
+    end = readme.index(END)
+    if end <= start:
+        raise UpstreamUpdateError("Section markers are reversed")
+    return readme[:start] + "\n" + content + "\n" + readme[end:]
 
 
-def refresh(
-    readme_path: Path = README_PATH,
-    fetcher: Callable[[TrackedPR, str], dict[str, Any]] = load_public_pr,
-    token: str = "",
-) -> bool:
-    # Complete all reads and validation before writing anything to disk.
-    rows = [render_row(item, fetcher(item, token)) for item in TRACKED]
-    source = readme_path.read_text(encoding="utf-8")
-    updated = replace_section(source, render_table(rows))
-    if updated == source:
+def refresh(path: Path = README_PATH, fetcher: Callable[[str, int, str], dict[str, Any]] = search_page,
+            token: str = "") -> bool:
+    # Search/validation finish before any file is changed. A failure cannot
+    # replace the existing table with partial or invented information.
+    opened, merged = collect(fetcher, token)
+    source = path.read_text(encoding="utf-8")
+    next_source = replace_section(source, render(opened, merged))
+    if source == next_source:
         return False
-    readme_path.write_text(updated, encoding="utf-8", newline="\n")
+    path.write_text(next_source, encoding="utf-8", newline="\n")
     return True
 
 
 if __name__ == "__main__":
     changed = refresh(token=os.environ.get("GITHUB_TOKEN", ""))
-    print("Updated reviewed upstream PR statuses." if changed else "Upstream PR statuses unchanged.")
+    print("Refreshed public upstream PR discovery." if changed else "Upstream section unchanged.")

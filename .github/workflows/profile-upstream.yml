@@ -26,6 +26,10 @@ jobs:
           python-version: '3.12'
       - name: Run self-contained offline tests
         run: python -m unittest discover -s tests -p 'test_profile_upstream.py' -v
+      - name: Check live public upstream discovery (no commit)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/profile_upstream.py
 
   refresh:
     # Design-branch pushes only validate. Scheduled refreshes happen on main

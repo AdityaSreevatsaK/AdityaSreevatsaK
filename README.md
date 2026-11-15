@@ -26,16 +26,19 @@
 Automatically discovers public upstream PRs outside this account's repositories. [GitHub Actions](.github/workflows/profile-upstream.yml) refreshes this preview when the branch changes, and runs hourly once approved on the default branch.
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
-**Open upstream PRs: 6** · **Merged: 1** · [View all upstream PRs](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)
+**Open upstream PRs: 8** · **Merged: 2** · [View all upstream PRs](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)
 
 | Repository | Contribution | Status | Last activity (UTC) |
 | :-- | :-- | :-- | :-- |
+| pgjones/hypercorn | [Fix HTTP/2 stalls with unread request bodies (#395)](https://github.com/pgjones/hypercorn/pull/395) | Open | 15 Nov 2026 |
+| pytest-dev/pytest-cov | [Document warning-filter imports before coverage starts (#776)](https://github.com/pytest-dev/pytest-cov/pull/776) | Open | 14 Nov 2026 |
 | pytest-dev/pytest-cov | [Fix coverage merging for custom file tracers (#775)](https://github.com/pytest-dev/pytest-cov/pull/775) | Open | 13 Nov 2026 |
 | pydantic/httpx2 | [Support larger SSE events (#1333)](https://github.com/pydantic/httpx2/pull/1333) | Open | 13 Nov 2026 |
 | pydantic/httpx2 | [Fix HTTP/2 response stalls (#1334)](https://github.com/pydantic/httpx2/pull/1334) | Open | 13 Nov 2026 |
 | pydantic/logfire | [Fix Windows log-clean file locking (#2803)](https://github.com/pydantic/logfire/pull/2803) | Open | 12 Nov 2026 |
 | pydantic/httpx2 | [Support an alternative authentication header (#1332)](https://github.com/pydantic/httpx2/pull/1332) | Open | 12 Nov 2026 |
 | pydantic/httpx2 | [Retry failed pool stream closures (#1330)](https://github.com/pydantic/httpx2/pull/1330) | Open | 12 Nov 2026 |
+| wheelgap/wheelgap | [Fix bundled Pyodide version reporting (#341)](https://github.com/wheelgap/wheelgap/pull/341) | **Merged** | 15 Nov 2026 |
 | rossjrw/rossjrw | [Recover stalled game states (#4934)](https://github.com/rossjrw/rossjrw/pull/4934) | **Merged** | 11 Nov 2026 |
 <!-- END:PROFILE_UPSTREAM -->
 

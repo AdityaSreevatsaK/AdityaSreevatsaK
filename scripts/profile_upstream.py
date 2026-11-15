@@ -194,7 +194,7 @@ def render(open_prs: list[dict[str, str]], merged_prs: list[dict[str, str]]) -> 
             rows.append(f"| {pr['repository']} | [{name}]({pr['url']}) | {pr['status']} |")
         return "\n".join([summary, "", *rows])
     if VIEW_STYLE == "digest":
-        recent = sorted([*open_prs, *merged_prs], key=lambda pr: pr["sort_time"], reverse=True)[:5]
+        recent = [*open_prs[:MAX_OPEN_SHOWN], *merged_prs[:MAX_MERGED_SHOWN]]
         entries = [
             f"- [{pr['repository']} #{pr['number']}]({pr['url']}) · {pr['status'].replace('**', '')} · {pr['updated']}"
             for pr in recent

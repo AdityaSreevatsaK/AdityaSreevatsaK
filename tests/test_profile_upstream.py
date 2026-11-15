@@ -72,6 +72,18 @@ class TestSearch(unittest.TestCase):
             self.assertIn("wheelgap/wheelgap/pull/341", table)
             self.assertIn("Merged", table)
 
+    def test_digest_preserves_merged_contributions_among_many_open_prs(self):
+        if m.VIEW_STYLE != "digest":
+            self.skipTest("Applicable to the live digest layout")
+        opens = [example(n=i) for i in range(200, 210)]
+        merged = [example(repo="wheelgap/wheelgap", n=341, state="closed",
+                          merged_at="2026-11-15T17:36:45Z")]
+        a, b = m.collect(fake_search(opens, merged))
+        rendered = m.render(a, b)
+        self.assertIn("wheelgap/wheelgap/pull/341", rendered)
+        self.assertEqual(3, rendered.count("https://github.com/pydantic/httpx2/pull/"))
+        self.assertIn("Merged: 1", rendered)
+
     def test_open_and_merged_counts(self):
         opens = [example(n=i) for i in range(10, 16)]
         merged = [example(repo="rossjrw/rossjrw", n=4934, state="closed", merged_at="2026-11-11T22:50:50Z")]

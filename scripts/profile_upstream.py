@@ -31,6 +31,9 @@ MAX_MERGED_SHOWN = 3
 # Safe, manually checked summaries. Future PRs are discovered without editing
 # this mapping; they appear with a neutral numeric label until curated.
 REVIEWED_SUMMARIES = {
+    ("pytest-dev/pytest-cov", 776): "Document warning-filter imports before coverage starts",
+    ("pgjones/hypercorn", 395): "Fix HTTP/2 stalls with unread request bodies",
+    ("wheelgap/wheelgap", 341): "Fix bundled Pyodide version reporting",
     ("pytest-dev/pytest-cov", 775): "Fix coverage merging for custom file tracers",
     ("pydantic/httpx2", 1334): "Fix HTTP/2 response stalls",
     ("pydantic/httpx2", 1333): "Support larger SSE events",

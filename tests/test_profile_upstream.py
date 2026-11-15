@@ -81,7 +81,7 @@ class TestSearch(unittest.TestCase):
         a, b = m.collect(fake_search(opens, merged))
         rendered = m.render(a, b)
         self.assertIn("wheelgap/wheelgap/pull/341", rendered)
-        self.assertEqual(3, rendered.count("https://github.com/pydantic/httpx2/pull/"))
+        self.assertEqual(2, rendered.count("https://github.com/pydantic/httpx2/pull/"))
         self.assertIn("Merged: 1", rendered)
 
     def test_open_and_merged_counts(self):
@@ -119,6 +119,20 @@ class TestSearch(unittest.TestCase):
         x["user"]["login"] = "someone-else"
         with self.assertRaises(m.UpstreamUpdateError):
             m.to_record(x)
+
+    def test_missing_author_is_rejected(self):
+        x = example()
+        del x["user"]
+        with self.assertRaises(m.UpstreamUpdateError):
+            m.to_record(x)
+
+    def test_newly_merged_pr_348_is_included(self):
+        merged = example(repo="wheelgap/wheelgap", n=348, state="closed",
+                         merged_at="2026-11-15T18:40:00Z")
+        opened, completed = m.collect(fake_search(merged=[merged]))
+        self.assertFalse(opened)
+        self.assertEqual(1, len(completed))
+        self.assertIn("/wheelgap/wheelgap/pull/348", m.render(opened, completed))
 
     def test_malformed_merged_missing_merged_at_rejected(self):
         x = example(state="closed", merged_at=None)

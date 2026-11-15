@@ -23,7 +23,7 @@
 
 ## Upstream work
 
-Automatically discovers public upstream PRs and refreshes their status through [GitHub Actions](.github/workflows/profile-upstream.yml) when the design is published on the default branch.
+Automatically discovers public upstream PRs outside this account's repositories. [GitHub Actions](.github/workflows/profile-upstream.yml) refreshes this preview when the branch changes, and runs hourly once approved on the default branch.
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
 **Open upstream PRs: 6** · **Merged: 1** · [View all upstream PRs](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)

@@ -1,4 +1,4 @@
-name: Verify and update selected upstream contributions
+name: Verify and refresh upstream contributions
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs only after the design is approved and merged into the default branch.
-    - cron: '17 5,17 * * *'
+    - cron: '23 * * * *'  # hourly once merged onto the default branch
 
 permissions:
   contents: read
@@ -32,9 +32,11 @@ jobs:
         run: python scripts/profile_upstream.py
 
   refresh:
-    # Design-branch pushes only validate. Scheduled refreshes happen on main
-    # after the owner separately approves a merge.
-    if: github.event_name != 'push'
+    # Preview branches update on their own pushes; schedules run on default branch only.
+    if: >-
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && startsWith(github.ref, 'refs/heads/design/'))
     needs: validate
     runs-on: ubuntu-latest
     permissions:
@@ -49,7 +51,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Refresh reviewed PR statuses
+      - name: Refresh all public upstream PR statuses
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/profile_upstream.py
@@ -60,5 +62,5 @@ jobs:
           git add -- README.md
           if ! git diff --cached --quiet; then
             git commit -m 'docs(profile): refresh selected upstream PR statuses'
-            git push
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

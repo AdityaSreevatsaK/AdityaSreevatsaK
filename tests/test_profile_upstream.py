@@ -55,6 +55,20 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(1, len(a))
         self.assertEqual("pydantic/httpx2", a[0]["repository"])
 
+    def test_new_wheelgap_merged_pr_included(self):
+        merged = example(
+            repo="wheelgap/wheelgap", n=341, state="closed",
+            merged_at="2026-11-15T17:36:45Z",
+        )
+        opened, completed = m.collect(fake_search(merged=[merged]))
+        self.assertFalse(opened)
+        self.assertEqual(1, len(completed))
+        table = m.render(opened, completed)
+        self.assertIn("wheelgap/wheelgap/pull/341", table)
+        self.assertIn("Fix bundled Pyodide version reporting", table)
+        self.assertIn("**Merged**", table)
+        self.assertIn("15 Nov 2026", table)
+
     def test_open_and_merged_counts(self):
         opens = [example(n=i) for i in range(10, 16)]
         merged = [example(repo="rossjrw/rossjrw", n=4934, state="closed", merged_at="2026-11-11T22:50:50Z")]

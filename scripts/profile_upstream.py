@@ -25,7 +25,7 @@ BEGIN = "<!-- BEGIN:PROFILE_UPSTREAM -->"
 END = "<!-- END:PROFILE_UPSTREAM -->"
 PER_PAGE = 100
 MAX_PAGES = 10
-MAX_OPEN_SHOWN = 3
+MAX_OPEN_SHOWN = 2
 MAX_MERGED_SHOWN = 2
 VIEW_STYLE = "digest"
 
@@ -115,8 +115,10 @@ def to_record(item: dict[str, Any], login: str = PROFILE_LOGIN, expected: str = 
     owner = repository.split("/", 1)[0]
     if owner.casefold() == login.casefold():
         return None
-    user = item.get("user") or {}
-    if user.get("login", login).casefold() != login.casefold():
+    user = item.get("user")
+    if not isinstance(user, dict) or not isinstance(user.get("login"), str):
+        raise UpstreamUpdateError("Search result missing a valid author")
+    if user["login"].casefold() != login.casefold():
         raise UpstreamUpdateError("Search result authored by another account")
     number = item.get("number")
     if not isinstance(number, int) or isinstance(number, bool) or number <= 0:

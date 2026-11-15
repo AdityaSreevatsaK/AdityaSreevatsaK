@@ -8,6 +8,8 @@ on:
       - scripts/profile_upstream.py
       - tests/test_profile_upstream.py
       - .github/workflows/profile-upstream.yml
+  pull_request:
+    branches: [design/live-contributions-v1]
   workflow_dispatch:
   schedule:
     # Runs only after the design is approved and merged into the default branch.

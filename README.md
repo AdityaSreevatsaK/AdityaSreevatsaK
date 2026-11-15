@@ -1,10 +1,10 @@
 # Aditya Sreevatsa K
 
-`Python` · `Agentic AI` · `LLM evaluation` · `RAG` · `Back-end systems`
+Python · Agentic systems · RAG · LLM evaluation · Back-end engineering
 
-[All repositories](https://github.com/AdityaSreevatsaK?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/adityasreevatsak/) · [Email](mailto:krishnan.adityasreevatsa@gmail.com)
+[Repositories](https://github.com/AdityaSreevatsaK?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/adityasreevatsak/) · [Email](mailto:krishnan.adityasreevatsa@gmail.com)
 
-## Recent upstream work
+## Open-source contributions
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
 **Open upstream PRs: 8** · **Merged: 3** · [All upstream contributions](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)
@@ -14,17 +14,3 @@
 - [wheelgap/wheelgap #348](https://github.com/wheelgap/wheelgap/pull/348) · Merged · 15 Nov 2026
 - [wheelgap/wheelgap #341](https://github.com/wheelgap/wheelgap/pull/341) · Merged · 15 Nov 2026
 <!-- END:PROFILE_UPSTREAM -->
-
-## Selected repositories
-
-**[Agentic Engineering Toolkit](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit)**  
-Scaffold LangGraph, AWS Strands and LlamaIndex agent projects with local-first checks.
-
-**[Agent Engineering Accelerator](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator)**  
-Agent evaluation and regression testing tools, under development.
-
-**[Taiyou's Personal Library](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library)**  
-Offline-first reader application with private content storage.
-
-**[RAG Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)**  
-Grounded question answering and retrieval experiments.

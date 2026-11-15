@@ -30,7 +30,7 @@ I'm a **Senior AI Engineer** working on agentic AI, RAG, LLM evaluation and back
 
 ### Open source
 
-Public upstream PRs are discovered automatically, excluding repositories owned by this account. Their statuses refresh through the [GitHub Action](.github/workflows/profile-upstream.yml) after the design is approved for the default branch.
+Public upstream PRs are discovered automatically, excluding repositories owned by this account. The [GitHub Action](.github/workflows/profile-upstream.yml) refreshes this preview when the branch changes, and runs hourly once approved on the default branch.
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
 **Open upstream PRs: 6** · **Merged: 1** · [View all upstream PRs](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)

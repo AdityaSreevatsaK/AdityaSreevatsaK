@@ -22,11 +22,11 @@
 
 | Repository | Pull request | Status |
 | :-- | :-- | :-- |
-| pgjones/hypercorn | [PR #395](https://github.com/pgjones/hypercorn/pull/395) | Open |
-| pytest-dev/pytest-cov | [PR #776](https://github.com/pytest-dev/pytest-cov/pull/776) | Open |
-| pytest-dev/pytest-cov | [PR #775](https://github.com/pytest-dev/pytest-cov/pull/775) | Open |
-| wheelgap/wheelgap | [PR #341](https://github.com/wheelgap/wheelgap/pull/341) | **Merged** |
-| rossjrw/rossjrw | [PR #4934](https://github.com/rossjrw/rossjrw/pull/4934) | **Merged** |
+| pgjones/hypercorn | [Fix HTTP/2 stalls with unread request bodies](https://github.com/pgjones/hypercorn/pull/395) | Open |
+| pytest-dev/pytest-cov | [Document warning-filter imports before coverage starts](https://github.com/pytest-dev/pytest-cov/pull/776) | Open |
+| pytest-dev/pytest-cov | [Fix coverage merging for custom file tracers](https://github.com/pytest-dev/pytest-cov/pull/775) | Open |
+| wheelgap/wheelgap | [Fix bundled Pyodide version reporting](https://github.com/wheelgap/wheelgap/pull/341) | **Merged** |
+| rossjrw/rossjrw | [Recover stalled game states](https://github.com/rossjrw/rossjrw/pull/4934) | **Merged** |
 <!-- END:PROFILE_UPSTREAM -->
 
 ## Toolkit

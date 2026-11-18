@@ -67,30 +67,58 @@ class TestSearch(unittest.TestCase):
         self.assertEqual("wheelgap/wheelgap", completed[0]["repository"])
         self.assertEqual("**Merged**", completed[0]["status"])
         if m.VIEW_STYLE == "summary":
-            self.assertIn("Merged: 1", table)
+            self.assertIn("1 merged", table)
         else:
             self.assertIn("wheelgap/wheelgap/pull/341", table)
             self.assertIn("Merged", table)
 
-    def test_digest_preserves_merged_contributions_among_many_open_prs(self):
-        if m.VIEW_STYLE != "digest":
-            self.skipTest("Applicable to the live digest layout")
-        opens = [example(n=i) for i in range(200, 210)]
-        merged = [example(repo="wheelgap/wheelgap", n=341, state="closed",
-                          merged_at="2026-11-15T17:36:45Z")]
-        a, b = m.collect(fake_search(opens, merged))
-        rendered = m.render(a, b)
-        self.assertIn("wheelgap/wheelgap/pull/341", rendered)
-        self.assertEqual(2, rendered.count("https://github.com/pydantic/httpx2/pull/"))
-        self.assertIn("Merged: 1", rendered)
+    def test_recent_merged_contributions_cover_distinct_upstream_repositories(self):
+        def merged(repo, n, day):
+            x = example(repo=repo, n=n, state="closed",
+                        merged_at=f"2026-11-{day:02d}T12:00:00Z")
+            return x
+        completed = [
+            *[merged("wheelgap/wheelgap", n, 17) for n in range(490, 500)],
+            merged("wheelgap/tracker", 140, 17),
+            merged("wheelgap/tracker", 142, 16),
+            merged("rossjrw/rossjrw", 4934, 11),
+        ]
+        open_prs, merged_prs = m.collect(fake_search(
+            [example(n=1424)], completed
+        ))
+        content = m.render(open_prs, merged_prs)
+        self.assertIn("13 merged", content)
+        self.assertIn("1 open", content)
+        self.assertIn("wheelgap/tracker", content)
+        self.assertIn("rossjrw/rossjrw", content)
+        self.assertLessEqual(len(m.selected_merges(merged_prs)), m.MAX_MERGED_SHOWN)
+        self.assertLessEqual(content.count("| wheelgap/wheelgap |"), 3)
+
+    def test_live_search_links_match_underlying_state_filters(self):
+        merged_link = m.live_search_url("merged")
+        self.assertIn("is%3Amerged", merged_link)
+        self.assertIn("is%3Apublic", merged_link)
+        self.assertIn("-user%3AAdityaSreevatsaK", merged_link)
+        self.assertIn("is%3Aopen", m.live_search_url("open"))
+
+    def test_merged_count_includes_every_verified_record_not_just_visible_rows(self):
+        merged = [
+            example(repo="wheelgap/wheelgap", n=n, state="closed",
+                    merged_at="2026-11-17T12:00:00Z")
+            for n in range(100, 123)
+        ]
+        opens, completed = m.collect(fake_search(merged=merged))
+        text = m.render(opens, completed)
+        self.assertIn("23 merged", text)
+        self.assertLessEqual(len(m.selected_merges(completed)), m.MAX_MERGED_SHOWN)
 
     def test_open_and_merged_counts(self):
         opens = [example(n=i) for i in range(10, 16)]
         merged = [example(repo="rossjrw/rossjrw", n=4934, state="closed", merged_at="2026-11-11T22:50:50Z")]
         a, b = m.collect(fake_search(opens, merged))
         table = m.render(a, b)
-        self.assertIn("Open upstream PRs: 6", table)
-        self.assertIn("Merged: 1", table)
+        self.assertIn("6 open", table)
+        self.assertIn("1 merged", table)
         if m.VIEW_STYLE != "summary":
             self.assertIn("rossjrw/rossjrw", table)
 
@@ -100,7 +128,7 @@ class TestSearch(unittest.TestCase):
         table = m.render(a, b)
         self.assertNotIn("unreviewed client", table)
         self.assertNotIn("unsafe", table)
-        self.assertIn("Open upstream PRs: 1", table)
+        self.assertIn("1 open", table)
 
     def test_incomplete_search_rejected(self):
         def bad(q, page, token):
@@ -151,7 +179,7 @@ class TestSearch(unittest.TestCase):
     def test_display_cap_with_discovery_count(self):
         prs = [m.to_record(example(n=i)) for i in range(100, 120)]
         text = m.render(prs, [])
-        self.assertIn("Open upstream PRs: 20", text)
+        self.assertIn("20 open", text)
         if m.VIEW_STYLE == "summary":
             self.assertEqual(0, text.count("https://github.com/pydantic/httpx2/pull/"))
         else:

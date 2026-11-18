@@ -28,11 +28,28 @@
 ## Open-source contributions
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
-**Open upstream PRs: 8** · **Merged: 4** · [All upstream contributions](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+-user%3AAdityaSreevatsaK)
+**Upstream PRs:** [23 merged](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Amerged%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [4 open](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Aopen%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [View all upstream PRs](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Apublic%20-user%3AAdityaSreevatsaK)
 
-- [pgjones/hypercorn #395](https://github.com/pgjones/hypercorn/pull/395) · Open · 15 Nov 2026
-- [pytest-dev/pytest-cov #776](https://github.com/pytest-dev/pytest-cov/pull/776) · Open · 14 Nov 2026
-- [wheelgap/wheelgap #363](https://github.com/wheelgap/wheelgap/pull/363) · Merged · 15 Nov 2026
-- [wheelgap/wheelgap #348](https://github.com/wheelgap/wheelgap/pull/348) · Merged · 15 Nov 2026
+_Counts are a saved GitHub Actions snapshot. The links above show live GitHub results._
+
+**Recently merged (selected across upstream repositories)**
+
+| Repository | Contribution | Merged (UTC) |
+| :-- | :-- | :-- |
+| wheelgap/wheelgap | [Reject missing requirements files before PyPI lookup (#497)](https://github.com/wheelgap/wheelgap/pull/497) | 17 Nov 2026 |
+| wheelgap/wheelgap | [Print project-specific wheel configuration snippets (#481)](https://github.com/wheelgap/wheelgap/pull/481) | 17 Nov 2026 |
+| wheelgap/wheelgap | [Show published unofficial wheels per target (#477)](https://github.com/wheelgap/wheelgap/pull/477) | 17 Nov 2026 |
+| wheelgap/tracker | [Show published gap wheels in package lookup (#140)](https://github.com/wheelgap/tracker/pull/140) | 17 Nov 2026 |
+| wheelgap/tracker | [Publish platform-specific wheel coverage pages (#142)](https://github.com/wheelgap/tracker/pull/142) | 17 Nov 2026 |
+| rossjrw/rossjrw | [Recover stalled game states (#4934)](https://github.com/rossjrw/rossjrw/pull/4934) | 11 Nov 2026 |
+
+**Open for review**
+
+| Repository | Contribution | Last updated (UTC) |
+| :-- | :-- | :-- |
+| pytest-dev/pytest-xdist | [Prevent warning-deserialisation import races (#1424)](https://github.com/pytest-dev/pytest-xdist/pull/1424) | 17 Nov 2026 |
+| pgjones/hypercorn | [Fix HTTP/2 stalls with unread request bodies (#395)](https://github.com/pgjones/hypercorn/pull/395) | 15 Nov 2026 |
+| pytest-dev/pytest-cov | [Document warning-filter imports before coverage starts (#776)](https://github.com/pytest-dev/pytest-cov/pull/776) | 14 Nov 2026 |
+| pytest-dev/pytest-cov | [Fix coverage merging for custom file tracers (#775)](https://github.com/pytest-dev/pytest-cov/pull/775) | 13 Nov 2026 |
 <!-- END:PROFILE_UPSTREAM -->
 

@@ -70,7 +70,7 @@ class TestSearch(unittest.TestCase):
             self.assertIn("1 merged", table)
         else:
             self.assertIn("wheelgap/wheelgap/pull/341", table)
-            self.assertIn("Merged", table)
+            self.assertIn("Recently merged", table)
 
     def test_recent_merged_contributions_cover_distinct_upstream_repositories(self):
         def merged(repo, n, day):

@@ -221,16 +221,14 @@ def row(pr: dict[str, str]) -> str:
 
 def render(open_prs: list[dict[str, str]], merged_prs: list[dict[str, str]]) -> str:
     summary = (
-        f"**Upstream PRs:** [{len(merged_prs)} merged]({live_search_url('merged')}) · "
+        f"**Upstream PRs (last sync):** [{len(merged_prs)} merged]({live_search_url('merged')}) · "
         f"[{len(open_prs)} open]({live_search_url('open')}) · "
-        f"[View all upstream PRs]({live_search_url()})"
+        f"[Live results]({live_search_url()})"
     )
     lines = [
         summary,
         "",
-        "_Counts are a saved GitHub Actions snapshot. The links above show live GitHub results._",
-        "",
-        "**Recently merged (selected across upstream repositories)**",
+        "**Selected merged PRs**",
         "",
         "| Repository | Contribution | Merged (UTC) |",
         "| :-- | :-- | :-- |",
@@ -241,7 +239,7 @@ def render(open_prs: list[dict[str, str]], merged_prs: list[dict[str, str]]) -> 
         lines.append("| No merged upstream PRs | | |")
     lines.extend([
         "",
-        "**Open for review**",
+        "**Open PRs**",
         "",
         "| Repository | Contribution | Last updated (UTC) |",
         "| :-- | :-- | :-- |",

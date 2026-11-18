@@ -25,13 +25,24 @@ BEGIN = "<!-- BEGIN:PROFILE_UPSTREAM -->"
 END = "<!-- END:PROFILE_UPSTREAM -->"
 PER_PAGE = 100
 MAX_PAGES = 10
-MAX_OPEN_SHOWN = 2
-MAX_MERGED_SHOWN = 2
-VIEW_STYLE = "digest"
+MAX_OPEN_SHOWN = 4
+MAX_MERGED_SHOWN = 6
+MAX_MERGED_PER_REPOSITORY = 2
+VIEW_STYLE = "detailed"
 
 # Safe, manually checked summaries. Future PRs are discovered without editing
 # this mapping; they appear with a neutral numeric label until curated.
 REVIEWED_SUMMARIES = {
+    ("pytest-dev/pytest-xdist", 1424): "Prevent warning-deserialisation import races",
+    ("wheelgap/wheelgap", 497): "Reject missing requirements files before PyPI lookup",
+    ("wheelgap/wheelgap", 481): "Print project-specific wheel configuration snippets",
+    ("wheelgap/wheelgap", 477): "Show published unofficial wheels per target",
+    ("wheelgap/wheelgap", 474): "Compare full dependency trees for pinned versions",
+    ("wheelgap/wheelgap", 473): "Trace direct dependencies behind new gaps",
+    ("wheelgap/tracker", 140): "Show published gap wheels in package lookup",
+    ("wheelgap/tracker", 142): "Publish platform-specific wheel coverage pages",
+    ("wheelgap/tracker", 141): "Show full dependency-tree install coverage",
+    ("wheelgap/tracker", 122): "Guide visitors from missing package pages",
     ("pytest-dev/pytest-cov", 776): "Document warning-filter imports before coverage starts",
     ("pgjones/hypercorn", 395): "Fix HTTP/2 stalls with unread request bodies",
     ("wheelgap/wheelgap", 341): "Fix bundled Pyodide version reporting",
@@ -171,38 +182,76 @@ def collect(fetcher: Callable[[str, int, str], dict[str, Any]] = search_page,
     return groups[0], groups[1]
 
 
+def live_search_url(state: str | None = None) -> str:
+    """Link to the *same* public, non-owned PR search as the snapshot."""
+    query = query_for(state) if state is not None else (
+        f"is:pr author:{PROFILE_LOGIN} is:public -user:{PROFILE_LOGIN}"
+    )
+    return "https://github.com/pulls?q=" + urllib.parse.quote(query, safe="")
+
+
+def selected_merges(merged_prs: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Surface different upstream projects before filling with recent merges."""
+    selected: list[dict[str, str]] = []
+    seen_per_repo: dict[str, int] = {}
+    for pr in merged_prs:
+        name = pr["repository"].casefold()
+        if seen_per_repo.get(name, 0) >= MAX_MERGED_PER_REPOSITORY:
+            continue
+        selected.append(pr)
+        seen_per_repo[name] = seen_per_repo.get(name, 0) + 1
+        if len(selected) == MAX_MERGED_SHOWN:
+            return selected
+    selected_urls = {pr["url"] for pr in selected}
+    for pr in merged_prs:
+        if len(selected) == MAX_MERGED_SHOWN:
+            break
+        if pr["url"] not in selected_urls:
+            selected.append(pr)
+            selected_urls.add(pr["url"])
+    return sorted(selected, key=lambda pr: pr["sort_time"], reverse=True)
+
+
 def row(pr: dict[str, str]) -> str:
-    repo = pr["repository"]
-    number = pr["number"]
-    label = REVIEWED_SUMMARIES.get((repo, number), f"Pull request #{number}")
-    # The repository/URL are validated. Labels are only trusted local literals.
-    return f"| {repo} | [{label} (#{number})]({pr['url']}) | {pr['status']} | {pr['updated']} |"
+    """Format only locally curated summaries and validated GitHub URLs."""
+    repo, number = pr["repository"], pr["number"]
+    label = REVIEWED_SUMMARIES.get((repo, number), "Pull request")
+    return f"| {repo} | [{label} (#{number})]({pr['url']}) | {pr['updated']} |"
 
 
 def render(open_prs: list[dict[str, str]], merged_prs: list[dict[str, str]]) -> str:
     summary = (
-        f"**Open upstream PRs: {len(open_prs)}** · **Merged: {len(merged_prs)}** · "
-        f"[All upstream contributions](https://github.com/pulls?q=is%3Apr+author%3A{PROFILE_LOGIN}+-user%3A{PROFILE_LOGIN})"
+        f"**Upstream PRs:** [{len(merged_prs)} merged]({live_search_url('merged')}) · "
+        f"[{len(open_prs)} open]({live_search_url('open')}) · "
+        f"[View all upstream PRs]({live_search_url()})"
     )
-    if VIEW_STYLE == "summary":
-        return summary
-    if VIEW_STYLE == "index":
-        rows = [
-            "| Repository | Pull request | Status |",
-            "| :-- | :-- | :-- |",
-        ]
-        for pr in [*open_prs[:MAX_OPEN_SHOWN], *merged_prs[:MAX_MERGED_SHOWN]]:
-            name = REVIEWED_SUMMARIES.get((pr["repository"], pr["number"]), f"PR #{pr['number']}")
-            rows.append(f"| {pr['repository']} | [{name}]({pr['url']}) | {pr['status']} |")
-        return "\n".join([summary, "", *rows])
-    if VIEW_STYLE == "digest":
-        recent = [*open_prs[:MAX_OPEN_SHOWN], *merged_prs[:MAX_MERGED_SHOWN]]
-        entries = [
-            f"- [{pr['repository']} #{pr['number']}]({pr['url']}) · {pr['status'].replace('**', '')} · {pr['updated']}"
-            for pr in recent
-        ]
-        return "\n".join([summary, "", *entries])
-    raise UpstreamUpdateError("Unrecognised profile display style")
+    lines = [
+        summary,
+        "",
+        "_Counts are a saved GitHub Actions snapshot. The links above show live GitHub results._",
+        "",
+        "**Recently merged (selected across upstream repositories)**",
+        "",
+        "| Repository | Contribution | Merged (UTC) |",
+        "| :-- | :-- | :-- |",
+    ]
+    visible_merges = selected_merges(merged_prs)
+    lines.extend(row(pr) for pr in visible_merges)
+    if not visible_merges:
+        lines.append("| No merged upstream PRs | | |")
+    lines.extend([
+        "",
+        "**Open for review**",
+        "",
+        "| Repository | Contribution | Last updated (UTC) |",
+        "| :-- | :-- | :-- |",
+    ])
+    visible_open = open_prs[:MAX_OPEN_SHOWN]
+    lines.extend(row(pr) for pr in visible_open)
+    if not visible_open:
+        lines.append("| No open upstream PRs | | |")
+    return "\n".join(lines)
+
 
 def replace_section(readme: str, content: str) -> str:
     if readme.count(BEGIN) != 1 or readme.count(END) != 1:

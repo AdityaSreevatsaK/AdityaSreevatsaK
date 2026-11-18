@@ -2,17 +2,18 @@ name: Verify live upstream digest and native profile
 
 on:
   push:
-    branches: [design/live-contributions-v1]
+    branches: [main, 'design/**']
     paths:
       - README.md
       - scripts/profile_upstream.py
       - tests/test_profile_upstream.py
       - .github/workflows/profile-upstream.yml
   pull_request:
-    branches: [design/live-contributions-v1]
+    branches: [main, design/live-contributions-v1]
   workflow_dispatch:
   schedule:
-    # Runs only after the design is approved and merged into the default branch.
+    # GitHub runs scheduled workflows from the default branch only.
+    # Preview branches are updated on their own pushes before release.
     - cron: '23 * * * *'  # hourly once merged onto the default branch
 
 permissions:

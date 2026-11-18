@@ -28,11 +28,9 @@
 ## Open-source contributions
 
 <!-- BEGIN:PROFILE_UPSTREAM -->
-**Upstream PRs:** [23 merged](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Amerged%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [4 open](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Aopen%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [View all upstream PRs](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Apublic%20-user%3AAdityaSreevatsaK)
+**Upstream PRs (last sync):** [23 merged](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Amerged%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [4 open](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Aopen%20is%3Apublic%20-user%3AAdityaSreevatsaK) · [Live results](https://github.com/pulls?q=is%3Apr%20author%3AAdityaSreevatsaK%20is%3Apublic%20-user%3AAdityaSreevatsaK)
 
-_Counts are a saved GitHub Actions snapshot. The links above show live GitHub results._
-
-**Recently merged (selected across upstream repositories)**
+**Selected merged PRs**
 
 | Repository | Contribution | Merged (UTC) |
 | :-- | :-- | :-- |
@@ -43,7 +41,7 @@ _Counts are a saved GitHub Actions snapshot. The links above show live GitHub re
 | wheelgap/tracker | [Publish platform-specific wheel coverage pages (#142)](https://github.com/wheelgap/tracker/pull/142) | 17 Nov 2026 |
 | rossjrw/rossjrw | [Recover stalled game states (#4934)](https://github.com/rossjrw/rossjrw/pull/4934) | 11 Nov 2026 |
 
-**Open for review**
+**Open PRs**
 
 | Repository | Contribution | Last updated (UTC) |
 | :-- | :-- | :-- |

@@ -70,7 +70,9 @@ class TestSearch(unittest.TestCase):
             self.assertIn("1 merged", table)
         else:
             self.assertIn("wheelgap/wheelgap/pull/341", table)
-            self.assertIn("Recently merged", table)
+            self.assertIn("Selected merged PRs", table)
+            self.assertNotIn("Counts are a saved GitHub Actions snapshot", table)
+            self.assertIn("last sync", table)
 
     def test_recent_merged_contributions_cover_distinct_upstream_repositories(self):
         def merged(repo, n, day):

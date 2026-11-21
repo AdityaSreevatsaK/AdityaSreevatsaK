@@ -1,37 +1,37 @@
 <h1 align="center">Hi, I'm Aditya Sreevatsa K!</h1>
 <p align="center" style="background-color:#000000;">
   <img src="documents/Aditya Sreevatsa K.svg" 
-  alt="AI-ML Engineer - Turning Research into Production-Ready AI."/>
+  alt="Senior AI Engineer · Agentic Systems · AI Architecture"/>
 </p>
 
 ---
 
-## 🔭 What I'm Working On
+## 🔭 Projects & Experiments
 
 | Project                                                                                                     | Description                                                      |
 |:------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
-| 🤖 [RAG-Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)                                           | Forging practical Retrieval-Augmented Generation (RAG) pipelines |
-| 🚀 [The-Neural-Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus)                                 | Cutting-Edge Deep Learning Lab                                   |
+| 🤖 [RAG-Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)                                           | RAG experiments using LangChain, FAISS and Ollama |
+| 🚀 [The-Neural-Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus)                                 | Deep learning architectures and experiments                                   |
 | 🧠 [NLP-Navigator](https://github.com/AdityaSreevatsaK/NLP-Navigator)                                       | Real-World NLP Applications                                      |
 | ⚙️ [PySpark-Pipeline](https://github.com/AdityaSreevatsaK/PySpark-Pipeline)                                 | Big Data ML with PySpark                                         |
-| 🎯 [Suggestify-RecommendationSystems](https://github.com/AdityaSreevatsaK/Suggestify-RecommendationSystems) | Scalable Recommender Engines                                     |
+| 🎯 [Suggestify-RecommendationSystems](https://github.com/AdityaSreevatsaK/Suggestify-RecommendationSystems) | Recommendation-system implementations and experiments                                     |
 | 🧪 [Applied-AI-Lab](https://github.com/AdityaSreevatsaK/Applied-AI-Lab)                                     | End-to-End AI/ML Experimentation                                 |
 | 📊 [DS-ML-Playground](https://github.com/AdityaSreevatsaK/DS-ML-Playground)                                 | Diverse ML Problem Solving                                       |
 | 🍃 [MongoDB-Mechanics](https://github.com/AdityaSreevatsaK/MongoDB-Mechanics)                               | NoSQL Data Handling for ML                                       |
 | 🐍 [100DaysOfCode-Python](https://github.com/AdityaSreevatsaK/100DaysOfCode_Python)                         | Rapid Python Mastery Journey                                     |
-| 🛠️ [Useful-Code-Snippets](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets)                        | Production-Ready Code Boosters                                   |
+| 🛠️ [Useful-Code-Snippets](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets)                        | Reusable Python utilities and developer tools                                   |
 
 ---
 
 ## 📌 Highlights
 
-* 🎯 Specialising in **Generative AI** and **Agentic AI**, with a focus on building autonomous systems for financial
-  analysis (`AlphaAgent`) and urban mobility (`SmartFlow`).
+* 🎯 Specialising in **Agentic AI, AI solution architecture, RAG and evaluation**, with a focus on reusable
+  engineering frameworks and production-grade systems.
 * 🛠️ Skilled in **productionising machine learning models**, from building on live **Kafka** streams to deploying and
   scaling with **Docker** and **Kubernetes**.
 * 🏢 Proven track record of delivering AI/ML solutions in large-scale **enterprise environments** within the financial
   services and energy sectors.
-* 🌟 Committed to engineering excellence with a passion for writing **clean, scalable, and production-ready code**.
+* 🌟 Engineering priorities include **reusability, automated testing, observability, security and maintainability**.
 
 ---
 
@@ -56,10 +56,8 @@
 
 ## 🧪 Research & Innovation
 
-* 📄 Architecting **AlphaAgent**, an autonomous financial analyst that integrates Retrieval-Augmented Generation (RAG)
-  with quantitative tools.
-* 📄 Developing **SmartFlow**, a hybrid framework that uses Reinforcement Learning and Agentic AI to optimise urban
-  mobility systems.
+* 📄 Exploring financial research through **AlphaAgent**, combining RAG and quantitative analysis.
+* 📄 Researching bike-sharing redistribution through **SmartFlow**, combining reinforcement learning and simulation.
 * 📌 Exploring hybrid frameworks that combine Machine Learning with traditional Operations Research for optimised
   decision-making.
 * 🧬 Passionate about bridging the gap between theoretical research and impactful, real-world applications.

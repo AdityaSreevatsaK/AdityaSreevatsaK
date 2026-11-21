@@ -1,50 +1,43 @@
-<h1 align="center">Hi, I'm Aditya Sreevatsa K!</h1>
+<h1 align="center">Aditya Sreevatsa K</h1>
 <p align="center" style="background-color:#000000;">
   <img src="documents/Aditya Sreevatsa K.svg" 
-  alt="AI-ML Engineer - Turning Research into Production-Ready AI."/>
+  alt="Senior AI Engineer | Agentic Systems &amp; AI Architecture"/>
 </p>
 
 ---
 
-## 🔭 What I'm Working On
+## 🔭 Selected Engineering Projects
 
-| Project                                                                                                     | Description                                                      |
-|:------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
-| 🤖 [RAG-Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry)                                           | Forging practical Retrieval-Augmented Generation (RAG) pipelines |
-| 🚀 [The-Neural-Nexus](https://github.com/AdityaSreevatsaK/The-Neural-Nexus)                                 | Cutting-Edge Deep Learning Lab                                   |
-| 🧠 [NLP-Navigator](https://github.com/AdityaSreevatsaK/NLP-Navigator)                                       | Real-World NLP Applications                                      |
-| ⚙️ [PySpark-Pipeline](https://github.com/AdityaSreevatsaK/PySpark-Pipeline)                                 | Big Data ML with PySpark                                         |
-| 🎯 [Suggestify-RecommendationSystems](https://github.com/AdityaSreevatsaK/Suggestify-RecommendationSystems) | Scalable Recommender Engines                                     |
-| 🧪 [Applied-AI-Lab](https://github.com/AdityaSreevatsaK/Applied-AI-Lab)                                     | End-to-End AI/ML Experimentation                                 |
-| 📊 [DS-ML-Playground](https://github.com/AdityaSreevatsaK/DS-ML-Playground)                                 | Diverse ML Problem Solving                                       |
-| 🍃 [MongoDB-Mechanics](https://github.com/AdityaSreevatsaK/MongoDB-Mechanics)                               | NoSQL Data Handling for ML                                       |
-| 🐍 [100DaysOfCode-Python](https://github.com/AdityaSreevatsaK/100DaysOfCode_Python)                         | Rapid Python Mastery Journey                                     |
-| 🛠️ [Useful-Code-Snippets](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets)                        | Production-Ready Code Boosters                                   |
+| Project | What it demonstrates |
+| :-- | :-- |
+| 🧩 [Agentic Engineering Toolkit](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit) | Local-first scaffolding for LangGraph, AWS Strands and LlamaIndex agents, with starter APIs and offline tests |
+| 🧪 [Agent Engineering Accelerator](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator) | Agent evaluation, regression checks and tracing; development candidate on the dev branch |
+| 🔎 [RAG Foundry](https://github.com/AdityaSreevatsaK/RAG-Foundry) | Experimental text, PDF and conversational RAG using FAISS, LangChain and Ollama |
+| 📚 [Taiyou's Personal Library](https://github.com/AdityaSreevatsaK/Taiyous-Personal-Library) | Offline-capable EPUB reader built with React, TypeScript and private Hugging Face storage |
+| 🗂️ [Taiyou's Manga Library](https://github.com/AdityaSreevatsaK/Taiyous-Manga-Library) | Chapter-based manga reader with Cloudflare Pages, owner-only access and private media delivery |
+| 🌸 [Taiyou's Shared Core & Hub](https://github.com/AdityaSreevatsaK/Taiyous-Shared-Core) | Responsive gateway to independently deployed readers and experimental shared UI contracts |
+| 🛠️ [Novels Storage Controller](https://github.com/AdityaSreevatsaK/Taiyou-Novels-Storage-Controller) | Python tools for private novel imports, cover management, integrity checks and backups |
+| ⚙️ [Manga Storage Controller](https://github.com/AdityaSreevatsaK/Taiyou-Manga-Storage-Controller) | Python tooling for verified manga imports, immutable media IDs and private catalogue management |
+| 📊 [GitHub Actions Command Centre](https://github.com/AdityaSreevatsaK/github-actions-command-centre) | Read-only dashboard for exploring workflow runs across GitHub repositories |
+| 📦 [Utility Shelf](https://github.com/AdityaSreevatsaK/Useful-Code-Snippets) | FastAPI-based collection of reusable Python utilities with a browsable web interface |
 
 ---
 
 ## 📌 Highlights
 
-* 🎯 Specialising in **Generative AI** and **Agentic AI**, with a focus on building autonomous systems for financial
-  analysis (`AlphaAgent`) and urban mobility (`SmartFlow`).
-* 🛠️ Skilled in **productionising machine learning models**, from building on live **Kafka** streams to deploying and
-  scaling with **Docker** and **Kubernetes**.
-* 🏢 Proven track record of delivering AI/ML solutions in large-scale **enterprise environments** within the financial
-  services and energy sectors.
-* 🌟 Committed to engineering excellence with a passion for writing **clean, scalable, and production-ready code**.
+* 🎯 **AI engineering and solution architecture:** agentic workflows, tool orchestration, retrieval systems and Python APIs, with emphasis on reliable integration rather than model demos alone.
+* 🧰 **Reusable developer tooling:** local-first agent project scaffolding, evaluation workflows, regression checks and CI that do not require paid inference.
+* 🌐 **End-to-end product engineering:** browser applications, authentication boundaries, private storage integrations and independently deployed services.
+* 🤝 **Open-source contributions:** fixes, tests and documentation in external Python projects, including [Wheelgap](https://github.com/wheelgap/wheelgap) and the [pytest ecosystem](https://github.com/pytest-dev). [Upstream pull requests](https://github.com/pulls?q=is%3Apr+author%3AAdityaSreevatsaK+is%3Apublic+-user%3AAdityaSreevatsaK).
 
 ---
 
 ## 🧠 Core Expertise
 
-* **Generative AI & NLP:** Specialising in building and deploying advanced systems using LLMs, Retrieval-Augmented
-  Generation (RAG), and Agentic AI frameworks.
-* **Deep Learning & Applied ML:** Deeply versed in Deep Learning (PyTorch, TensorFlow) and a range of ML domains
-  including Reinforcement Learning, Computer Vision, and Recommender Systems.
-* **End-to-End MLOps:** Experienced in the full model lifecycle, including containerisation (Docker), orchestration 
- (Kubernetes), CI/CD pipelines, and cloud deployment (AWS, Azure).
-* **Big Data & Real-Time Processing:** Skilled in engineering scalable data pipelines for machine learning using Apache
-  Spark, Apache Kafka, and distributed systems.
+* **Agentic AI & LLM systems:** LangGraph, AWS Strands and LlamaIndex; tool use, multi-step workflows, RAG, conversational systems and provider integrations.
+* **Backend engineering & APIs:** Python, FastAPI, data access patterns, authentication boundaries, configuration, service integration and maintainable application architecture.
+* **Evaluation, reliability & security:** regression suites, offline test doubles, CI quality gates, observability with OpenTelemetry, failure handling and defensive defaults.
+* **Applied ML & delivery:** PyTorch, scikit-learn and classical ML experimentation; data pipelines, Docker, cloud deployment and production-minded engineering practices.
 
 ---
 
@@ -56,13 +49,10 @@
 
 ## 🧪 Research & Innovation
 
-* 📄 Architecting **AlphaAgent**, an autonomous financial analyst that integrates Retrieval-Augmented Generation (RAG)
-  with quantitative tools.
-* 📄 Developing **SmartFlow**, a hybrid framework that uses Reinforcement Learning and Agentic AI to optimise urban
-  mobility systems.
-* 📌 Exploring hybrid frameworks that combine Machine Learning with traditional Operations Research for optimised
-  decision-making.
-* 🧬 Passionate about bridging the gap between theoretical research and impactful, real-world applications.
+* 📄 **Agent project scaffolding:** [AET](https://github.com/AdityaSreevatsaK/agentic-engineering-toolkit) generates mock-first starter projects across agent frameworks; production certification and multi-team adoption are not claimed.
+* 🧪 **Agent evaluation:** [AEA](https://github.com/AdityaSreevatsaK/agent-engineering-accelerator/tree/dev) explores repeatable assessments, baselines and tracing for LangGraph and Strands. Its release candidate remains under development.
+* 📈 **Applied AI prototypes:** [AlphaAgent](https://github.com/AdityaSreevatsaK/AlphaAgent) explores local financial-document retrieval and market data; [SmartFlow](https://github.com/AdityaSreevatsaK/SmartFlow) simulates bike-sharing redistribution using reinforcement learning.
+* 🔧 **Engineering experiments:** local-first workflows, reusable components, secure private-data boundaries and ways to turn one-off prototypes into testable, maintainable systems.
 
 ---
 
